@@ -1,0 +1,63 @@
+baseURL = 'https://viswabalaji.github.io/'
+languageCode = 'en-us'
+title = 'Viswa Balaji'
+theme = 'PaperMod'
+
+[params]
+  description = "Technical writing on philosophy, computer science, AI, and biology"
+  author = "Viswa Balaji"
+
+  # PaperMod features
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = true
+
+  [params.homeInfoParams]
+    Title = "Welcome"
+    Content = """
+Technical writing on philosophy, computer science, AI, biology, and more.
+"""
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/viswabalaji"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    lineNumbersInTable = true
