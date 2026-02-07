@@ -69,6 +69,9 @@ A collection of technical writing, poetry, and short stories exploring philosoph
   home = ["HTML", "RSS", "JSON"]
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     style = 'monokai'
     lineNos = true
