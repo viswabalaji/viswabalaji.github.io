@@ -4,7 +4,7 @@ title = 'Viswa Balaji'
 theme = 'PaperMod'
 
 [params]
-  description = "Technical writing on philosophy, computer science, AI, and biology"
+  description = "Writing on technical topics, poetry, and short stories"
   author = "Viswa Balaji"
 
   # PaperMod features
@@ -27,7 +27,7 @@ theme = 'PaperMod'
   [params.homeInfoParams]
     Title = "Welcome"
     Content = """
-Technical writing on philosophy, computer science, AI, biology, and more.
+A collection of technical writing, poetry, and short stories exploring philosophy, computer science, AI, biology, and the human experience.
 """
 
 [[params.socialIcons]]
@@ -36,22 +36,34 @@ Technical writing on philosophy, computer science, AI, biology, and more.
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = "technical"
+    name = "Technical"
+    url = "/technical/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "poetry"
+    name = "Poetry"
+    url = "/poetry/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "stories"
+    name = "Stories"
+    url = "/stories/"
+    weight = 30
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 20
+    weight = 40
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 30
+    weight = 50
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
