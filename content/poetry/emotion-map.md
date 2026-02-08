@@ -32,3 +32,27 @@ For greyish notions have given way to colorful emotions<br>
 By the alluring voice from my headphones
 
 *Inspired by Taylor Swift's music*
+
+---
+
+## Commentary
+
+**Setting: West Lafayette** - References Purdue University in Indiana, where temperatures fall as low as -40°F during winter. The poem captures the freezing winter nights and the intense academic environment.
+
+**Taylor Swift as the Knight** - "A knight with shining armor, arrives in swift" - A wordplay on Taylor's last name. Her music serves as a key to unlock emotional awareness and empathy.
+
+### Emotion Mappings to Taylor Swift Songs
+
+Each emotion-focused stanza maps to specific Taylor Swift songs that evoke those feelings:
+
+- **Anger** → "Shake It Off" (1989)
+- **Anticipation** → "Soon You'll Get Better" (Lover)
+- **Surprise** → "Cruel Summer" (Lover)
+- **Disgust** → "Delicate" (reputation)
+- **Trust** → "Only the Young" (Miss Americana)
+- **Fear** → "Everything Has Changed" (Red)
+- **Sadness** → "Exile" (Folklore)
+- **Joy** → "London Boy" (Lover)
+- **Final Stanza** → "Back to December" (Speak Now)
+
+**The Transformation** - The poem captures Taylor Swift's ability to enable individuals to experience a range of emotions in a short period of time. The poet usually spends hours contemplating life and philosophy, but Taylor's songs made them more empathetic to emotions and thinking from someone else's shoes. Hence the transformation from "greyish notions" (of philosophy) to "colorful emotions" (of highs and lows in life).
