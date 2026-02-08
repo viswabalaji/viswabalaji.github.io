@@ -3,7 +3,7 @@ date = '2021-11-09'
 draft = false
 title = 'Poem 28: Glowing Cross'
 number = 28
-description = 'A glowing cross atop a lone peak watches over a small town like Horus's eye'
+description = "A glowing cross atop a lone peak watches over a small town like Horus's eye"
 +++
 
 The highway curved at sharp angles<br>

@@ -3,7 +3,7 @@ date = '2021-07-30'
 draft = false
 title = 'Poem 20: Misty Haze'
 number = 20
-description = 'Navigating life's events through misty uncertainty: always adore the haze'
+description = "Navigating life's events through misty uncertainty: always adore the haze"
 +++
 
 O' the one in a trance<br>
