@@ -4,7 +4,7 @@ draft = false
 title = 'Poem 28: Green Light'
 number = 28
 description = 'Young Ada discovers glow-in-the-dark stars and dreams of becoming a star maker'
-tags = ["nature", "exploration", "meditation"]
+tags = ["nature", "exploration", "zen"]
 +++
 
 I awake the next day and gaze upward<br>

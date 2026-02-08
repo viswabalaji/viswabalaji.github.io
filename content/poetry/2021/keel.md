@@ -4,7 +4,7 @@ draft = false
 title = 'Poem 26: Keel'
 number = 26
 description = 'French window contemplation: do I see everything at once or nothing at all?'
-tags = ["stability", "balance", "journey"]
+tags = ["balance", "balance", "journey"]
 +++
 
 Walking across the cold hard floor<br>

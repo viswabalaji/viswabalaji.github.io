@@ -4,7 +4,7 @@ draft = false
 title = 'Poem 24: Archetype'
 number = 24
 description = 'Searching for universal archetypes and symbols that inspire and attract us'
-tags = ["archetypes", "patterns", "psychology"]
+tags = ["patterns", "patterns", "psychology"]
 +++
 
 Reaching out to fellow minds Searching and sorting through ideals<br>

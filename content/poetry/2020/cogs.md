@@ -4,7 +4,7 @@ draft = false
 title = 'Poem 18: COGS'
 number = 18
 description = 'Mountain climbing as endless ambition: one peak reached only reveals more ahead'
-tags = ["technology", "progress", "machinery"]
+tags = ["technology", "progress", "technology"]
 +++
 
 Winding trail in the mountain side<br>

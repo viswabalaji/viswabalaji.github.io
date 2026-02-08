@@ -4,7 +4,7 @@ draft = false
 title = 'Poem 11: Midnight Stroll'
 number = 11
 description = 'Quiet contemplation during a midnight walk through hallowed hallways and starlight'
-tags = ["urban-life", "solitude", "night"]
+tags = ["city", "solitude", "night"]
 +++
 
 Hallowed hallways stretch afar<br>

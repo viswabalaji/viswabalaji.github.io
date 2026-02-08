@@ -4,7 +4,7 @@ draft = false
 title = 'Poem 32: Magic Disappears'
 number = 32
 description = 'When magic fades and challenges become routine, rare voids of stillness emerge'
-tags = ["magic", "wonder", "illusion"]
+tags = ["magic", "wonder", "magic"]
 +++
 
 Furrowing brow foreshadowed the glean in my eyes<br>
