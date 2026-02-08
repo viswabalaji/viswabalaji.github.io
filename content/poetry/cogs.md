@@ -1,7 +1,7 @@
 +++
 date = '2020-12-20'
 draft = false
-title = 'COGS'
+title = 'Poem 17: COGS'
 +++
 
 Winding trail in the mountain side<br>

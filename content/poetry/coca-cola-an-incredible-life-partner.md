@@ -1,7 +1,7 @@
 +++
 date = '2020-08-20'
 draft = false
-title = 'Coca-Cola: An Incredible Life Partner'
+title = 'Poem 3: Coca-Cola: An Incredible Life Partner'
 +++
 
 An innocuous looking canteen, stands in stark colors of red and white<br>

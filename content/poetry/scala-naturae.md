@@ -1,7 +1,7 @@
 +++
 date = '2020-12-11'
 draft = false
-title = 'Scala Naturae'
+title = 'Poem 16: Scala Naturae'
 +++
 
 Eager and entitled we spawn<br>

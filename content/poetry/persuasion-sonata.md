@@ -1,7 +1,7 @@
 +++
 date = '2020-09-12'
 draft = false
-title = 'Persuasion Sonata'
+title = 'Poem 8: Persuasion Sonata'
 +++
 
 Pacing heart dances to the symphony<br>

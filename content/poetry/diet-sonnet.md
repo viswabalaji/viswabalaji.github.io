@@ -1,7 +1,7 @@
 +++
 date = '2020-09-10'
 draft = false
-title = 'Diet Sonnet'
+title = 'Poem 7: Diet Sonnet'
 +++
 
 Move to wholesome fruits and food<br>

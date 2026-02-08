@@ -1,7 +1,7 @@
 +++
 date = '2020-09-01'
 draft = false
-title = 'Lackluster'
+title = 'Poem 6: Lackluster'
 +++
 
 Crystal clear azure lake, buzz of cicadas<br>
