@@ -1,0 +1,38 @@
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- if and (gt (len $pages) 1) (in $pages . ) }}
+<nav class="paginav">
+  {{- if eq .Section "poetry" }}
+    {{- /* For poetry, swap prev/next to match chronological order */ -}}
+    {{- with $pages.Prev . }}
+    <a class="prev" href="{{ .Permalink }}">
+      <span class="title">« {{ i18n "prev_page" }}</span>
+      <br>
+      <span>{{- .Name -}}</span>
+    </a>
+    {{- end }}
+    {{- with $pages.Next . }}
+    <a class="next" href="{{ .Permalink }}">
+      <span class="title">{{ i18n "next_page" }} »</span>
+      <br>
+      <span>{{- .Name -}}</span>
+    </a>
+    {{- end }}
+  {{- else }}
+    {{- /* Default behavior for other sections */ -}}
+    {{- with $pages.Next . }}
+    <a class="prev" href="{{ .Permalink }}">
+      <span class="title">« {{ i18n "prev_page" }}</span>
+      <br>
+      <span>{{- .Name -}}</span>
+    </a>
+    {{- end }}
+    {{- with $pages.Prev . }}
+    <a class="next" href="{{ .Permalink }}">
+      <span class="title">{{ i18n "next_page" }} »</span>
+      <br>
+      <span>{{- .Name -}}</span>
+    </a>
+    {{- end }}
+  {{- end }}
+</nav>
+{{- end }}
