@@ -1,9 +1,10 @@
 +++
 date = '2021-08-05'
 draft = false
-title = 'Poem 29: Archetype'
-number = 29
+title = 'Poem 24: Archetype'
+number = 24
 description = 'Searching for universal archetypes and symbols that inspire and attract us'
+tags = ["archetypes", "patterns", "psychology"]
 +++
 
 Reaching out to fellow minds Searching and sorting through ideals<br>

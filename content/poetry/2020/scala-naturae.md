@@ -1,9 +1,10 @@
 +++
 date = '2020-12-11'
 draft = false
-title = 'Poem 16: Scala Naturae'
-number = 16
+title = 'Poem 17: Scala Naturae'
+number = 17
 description = 'Life as chains: DNA, memory, and the five stages from birth to old age'
+tags = ["evolution", "hierarchy", "nature"]
 +++
 
 Eager and entitled we spawn<br>

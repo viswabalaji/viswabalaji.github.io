@@ -1,9 +1,10 @@
 +++
 date = '2020-09-01'
 draft = false
-title = 'Poem 6: Lackluster'
-number = 6
+title = 'Poem 7: Lackluster'
+number = 7
 description = 'A recursive meta-poem with layers of observation: girl, author, you running in the park'
+tags = ["recursion", "meta-poetry", "structure"]
 +++
 
 Crystal clear azure lake, buzz of cicadas<br>

@@ -68,6 +68,10 @@ A collection of technical writing, poetry, and short stories exploring philosoph
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

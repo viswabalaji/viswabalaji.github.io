@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 21: 3 Wise Dinosaurs'
 number = 21
 description = 'Three dinosaurs choose different paths to create history and become fossils'
+tags = ["wisdom", "extinction", "humor"]
 +++
 
 Dinosaur, Dinosaur where are you headed?<br>

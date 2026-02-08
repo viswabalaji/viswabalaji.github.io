@@ -4,6 +4,7 @@ draft = false
 title = "Poem 34: It's All About the Maker"
 number = 34
 description = 'From king makers to match makers to blockchain: who gets to choose?'
+tags = ["power", "blockchain", "trust"]
 +++
 
 From playing with sticks and stones<br>

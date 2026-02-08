@@ -1,9 +1,10 @@
 +++
 date = '2020-09-12'
 draft = false
-title = 'Poem 8: Persuasion Sonata'
-number = 8
+title = 'Poem 9: Persuasion Sonata'
+number = 9
 description = 'An alliterative plea for classical music appreciation (all words start with P)'
+tags = ["music", "classical", "persuasion"]
 +++
 
 Pacing heart dances to the symphony<br>

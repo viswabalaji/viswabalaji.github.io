@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 33: Dreams of a Distant Land'
 number = 33
 description = 'Seven oceans away, longing for a homeland whose shadows might consume me'
+tags = ["nostalgia", "longing", "identity"]
 +++
 
 The quiet hours of the evening ignite an unbearable thirst,<br>

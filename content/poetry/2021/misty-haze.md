@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 20: Misty Haze'
 number = 20
 description = "Navigating life's events through misty uncertainty: always adore the haze"
+tags = ["uncertainty", "zen", "acceptance"]
 +++
 
 O' the one in a trance<br>

@@ -1,9 +1,10 @@
 +++
 date = '2020-09-10'
 draft = false
-title = 'Poem 7: Diet Sonnet'
-number = 7
+title = 'Poem 8: Diet Sonnet'
+number = 8
 description = 'A sonnet defending condensed food as practical efficiency over traditional cooking'
+tags = ["diet", "health", "humor"]
 +++
 
 Move to wholesome fruits and food<br>

@@ -1,9 +1,10 @@
 +++
 date = '2020-07-31'
 draft = false
-title = 'Poem 18: Flip'
-number = 18
+title = 'Poem 3: Flip'
+number = 3
 description = 'Two sides of existence: the miracle of birth and the peace of death'
+tags = ["life-and-death", "duality", "nature"]
 +++
 
 ## Flip (Birth)

@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 23: Cogito, ergo sum'
 number = 23
 description = 'The observer is the observed: ending duality to find bliss without conflict'
+tags = ["philosophy", "existence", "thought"]
 +++
 
 I am conflicted.<br>

@@ -1,9 +1,10 @@
 +++
 date = '2020-12-20'
 draft = false
-title = 'Poem 17: COGS'
-number = 17
+title = 'Poem 18: COGS'
+number = 18
 description = 'Mountain climbing as endless ambition: one peak reached only reveals more ahead'
+tags = ["technology", "progress", "machinery"]
 +++
 
 Winding trail in the mountain side<br>

@@ -1,9 +1,10 @@
 +++
 date = '2020-11-20'
 draft = false
-title = 'Poem 14: Needleless Compass'
-number = 14
+title = 'Poem 15: Needleless Compass'
+number = 15
 description = 'Four paths to understanding reality: Religion, Philosophy, Science, and Art'
+tags = ["navigation", "uncertainty", "guidance"]
 +++
 
 **[Religion]**<br>

@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 2: Green Revolution'
 number = 2
 description = "India's agricultural transformation: progress and environmental cost in rhyming verse"
+tags = ["agriculture", "India", "environment"]
 +++
 
 To address of ever-growing lack of irrigation,<br>

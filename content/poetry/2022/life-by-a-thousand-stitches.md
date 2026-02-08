@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 35: Life by a Thousand Stitches'
 number = 35
 description = 'Stitching memories back together: the waterfall was the missing sound'
+tags = ["resilience", "patience", "craftsmanship"]
 +++
 
 Too cold to stand still in the foggy evening<br>

@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 19: White Sailboat'
 number = 19
 description = 'Moonlit beach scene contemplating distance, longing, and the phrase "I am who I am"'
+tags = ["ocean", "adventure", "freedom"]
 +++
 
 Seagulls crying out to the moon<br>

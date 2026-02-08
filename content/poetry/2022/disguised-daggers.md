@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 36: Disguised Daggers'
 number = 36
 description = 'Alliterative descent into darkness: all lines start with the letter D'
+tags = ["deception", "conflict", "trust"]
 +++
 
 I decided to descend down.<br>

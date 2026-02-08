@@ -4,6 +4,7 @@ draft = false
 title = 'Poem 22: Red Band'
 number = 22
 description = 'A mysterious red band on my wrist: everyone projects their own meaning'
+tags = ["barriers", "rules", "boundaries"]
 +++
 
 Tightening its grasp over my slender wrist<br>

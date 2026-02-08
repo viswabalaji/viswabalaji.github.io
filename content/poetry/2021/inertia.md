@@ -1,9 +1,10 @@
 +++
 date = '2021-08-15'
 draft = false
-title = 'Poem 24: Inertia'
-number = 24
+title = 'Poem 25: Inertia'
+number = 25
 description = "A frog's ripple travels from pond to river to sea, changing distant shores"
+tags = ["cause-and-effect", "nature", "ripples"]
 +++
 
 Jumping frog lands into the cool pond<br>
