@@ -2,6 +2,8 @@
 date = '2020-12-11'
 draft = false
 title = 'Poem 16: Scala Naturae'
+number = 16
+description = 'Life as chains: DNA, memory, and the five stages from birth to old age'
 +++
 
 Eager and entitled we spawn<br>

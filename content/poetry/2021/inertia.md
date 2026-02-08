@@ -2,6 +2,8 @@
 date = '2021-08-15'
 draft = false
 title = 'Poem 24: Inertia'
+number = 24
+description = 'A frog's ripple travels from pond to river to sea, changing distant shores'
 +++
 
 Jumping frog lands into the cool pond<br>

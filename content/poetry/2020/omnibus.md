@@ -2,6 +2,8 @@
 date = '2020-09-26'
 draft = false
 title = 'Poem 9: Omnibus'
+number = 9
+description = 'A bus ride through Seattle becomes a metaphor for the journey of life on Earth'
 +++
 
 Hopping on the reddish yellow C line my first time<br>

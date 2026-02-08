@@ -2,6 +2,8 @@
 date = '2020-09-10'
 draft = false
 title = 'Poem 7: Diet Sonnet'
+number = 7
+description = 'A sonnet defending condensed food as practical efficiency over traditional cooking'
 +++
 
 Move to wholesome fruits and food<br>

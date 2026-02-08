@@ -2,6 +2,8 @@
 date = '2021-08-16'
 draft = false
 title = 'Poem 25: Keel'
+number = 25
+description = 'French window contemplation: do I see everything at once or nothing at all?'
 +++
 
 Walking across the cold hard floor<br>

@@ -2,6 +2,8 @@
 date = '2021-08-01'
 draft = false
 title = 'Poem 21: 3 Wise Dinosaurs'
+number = 21
+description = 'Three dinosaurs choose different paths to create history and become fossils'
 +++
 
 Dinosaur, Dinosaur where are you headed?<br>

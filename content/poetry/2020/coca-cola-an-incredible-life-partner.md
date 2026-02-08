@@ -2,6 +2,8 @@
 date = '2020-08-20'
 draft = false
 title = 'Poem 3: Coca-Cola: An Incredible Life Partner'
+number = 3
+description = 'A love-hate ode to Coca-Cola as stress relief and guilty pleasure'
 +++
 
 An innocuous looking canteen, stands in stark colors of red and white<br>

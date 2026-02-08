@@ -2,6 +2,8 @@
 date = '2020-07-31'
 draft = false
 title = 'Poem 18: Flip'
+number = 18
+description = 'Two sides of existence: the miracle of birth and the peace of death'
 +++
 
 ## Flip (Birth)

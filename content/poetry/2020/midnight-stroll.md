@@ -2,6 +2,8 @@
 date = '2020-10-10'
 draft = false
 title = 'Poem 10: Midnight Stroll'
+number = 10
+description = 'Quiet contemplation during a midnight walk through hallowed hallways and starlight'
 +++
 
 Hallowed hallways stretch afar<br>

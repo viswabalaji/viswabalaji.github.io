@@ -2,6 +2,8 @@
 date = '2022-01-26'
 draft = false
 title = 'Poem 35: Life by a Thousand Stitches'
+number = 35
+description = 'Stitching memories back together: the waterfall was the missing sound'
 +++
 
 Too cold to stand still in the foggy evening<br>

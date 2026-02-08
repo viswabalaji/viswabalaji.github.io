@@ -2,6 +2,8 @@
 date = '2022-01-23'
 draft = false
 title = 'Poem 32: Magic Disappears'
+number = 32
+description = 'When magic fades and challenges become routine, rare voids of stillness emerge'
 +++
 
 Furrowing brow foreshadowed the glean in my eyes<br>

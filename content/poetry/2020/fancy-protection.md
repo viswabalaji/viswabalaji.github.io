@@ -2,6 +2,8 @@
 date = '2020-11-10'
 draft = false
 title = 'Poem 13: Fancy Protection'
+number = 13
+description = 'Contemplating faith, fate, fear, and the protective rituals we create'
 +++
 
 Is it faith or fate that shapes them?<br>

@@ -2,6 +2,8 @@
 date = '2021-08-20'
 draft = false
 title = 'Poem 30: A Photo'
+number = 30
+description = 'A photo of her touching my hand: I am death, the destroyer of worlds'
 +++
 
 Seeing changes what you know<br>

@@ -2,6 +2,8 @@
 date = '2021-08-05'
 draft = false
 title = 'Poem 29: Archetype'
+number = 29
+description = 'Searching for universal archetypes and symbols that inspire and attract us'
 +++
 
 Reaching out to fellow minds Searching and sorting through ideals<br>

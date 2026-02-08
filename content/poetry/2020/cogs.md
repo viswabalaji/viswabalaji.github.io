@@ -2,6 +2,8 @@
 date = '2020-12-20'
 draft = false
 title = 'Poem 17: COGS'
+number = 17
+description = 'Mountain climbing as endless ambition: one peak reached only reveals more ahead'
 +++
 
 Winding trail in the mountain side<br>

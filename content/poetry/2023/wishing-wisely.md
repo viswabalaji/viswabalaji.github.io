@@ -2,6 +2,8 @@
 date = '2023-07-25'
 draft = false
 title = 'Poem 37: Wishing Wisely'
+number = 37
+description = 'Wishing for ghosts at midnight: proof of Gods and the question of living now or later'
 +++
 
 Do you ever wish for ghosts?<br>

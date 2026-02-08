@@ -2,6 +2,8 @@
 date = '2020-11-20'
 draft = false
 title = 'Poem 14: Needleless Compass'
+number = 14
+description = 'Four paths to understanding reality: Religion, Philosophy, Science, and Art'
 +++
 
 **[Religion]**<br>

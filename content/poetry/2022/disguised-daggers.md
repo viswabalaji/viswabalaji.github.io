@@ -2,6 +2,8 @@
 date = '2022-04-12'
 draft = false
 title = 'Poem 36: Disguised Daggers'
+number = 36
+description = 'Alliterative descent into darkness: all lines start with the letter D'
 +++
 
 I decided to descend down.<br>

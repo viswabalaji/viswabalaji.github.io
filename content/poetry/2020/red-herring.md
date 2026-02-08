@@ -2,6 +2,8 @@
 date = '2020-11-01'
 draft = false
 title = 'Poem 12: Red Herring'
+number = 12
+description = 'Sisyphean struggle between rest and restlessness, work and recovery'
 +++
 
 Rolling rocks up the unfinished hill<br>

@@ -2,6 +2,8 @@
 date = '2021-10-15'
 draft = false
 title = 'Poem 31: Evolve'
+number = 31
+description = 'Hiking past arguing students: untroubled by troubles, continuing upward'
 +++
 
 Resting at the edge of the precipitous cliff<br>
