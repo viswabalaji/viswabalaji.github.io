@@ -1,6 +1,6 @@
 +++
 date = '2020-08-20'
-draft = true
+draft = false
 title = 'Coca-Cola: An Incredible Life Partner'
 +++
 

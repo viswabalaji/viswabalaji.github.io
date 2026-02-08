@@ -1,6 +1,6 @@
 +++
 date = '2020-06-13'
-draft = true
+draft = false
 title = 'Misgivings of Moving a Shoebox'
 +++
 
