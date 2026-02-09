@@ -2,10 +2,15 @@ baseURL = 'https://viswabalaji.github.io/'
 languageCode = 'en-us'
 title = 'Viswa Balaji'
 theme = 'PaperMod'
+googleAnalytics = 'G-R17Z0BWKKN'
 
 [params]
   description = "Writing on technical topics, poetry, and short stories"
   author = "Viswa Balaji"
+
+  # Analytics
+  [params.analytics.google]
+    SiteVerificationTag = "G-R17Z0BWKKN"
 
   # PaperMod features
   ShowReadingTime = true
