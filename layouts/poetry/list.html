@@ -61,7 +61,7 @@
         </tr>
       </thead>
       <tbody>
-        {{ range .Site.RegularPages.ByParam "date" }}
+        {{ range (.Site.RegularPages.ByParam "date").Reverse }}
           {{ if in .RelPermalink "/poetry/" }}
             {{ if not (in .RelPermalink "/_index") }}
               <tr>
