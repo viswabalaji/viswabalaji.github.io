@@ -1,0 +1,560 @@
+/* Elegant Modern Theme - Clean & Readable */
+
+:root {
+    /* Refined color palette - sophisticated blues */
+    --elegant-navy: #1e3a8a;
+    --elegant-blue: #2563eb;
+    --elegant-sky: #3b82f6;
+    --elegant-accent: #60a5fa;
+    --elegant-light: #dbeafe;
+    --elegant-lightest: #eff6ff;
+    --elegant-dark: #1e293b;
+    --elegant-gray: #64748b;
+
+    /* Enhanced readability */
+    --theme: white;
+    --entry: white;
+    --primary: #0f172a;
+    --secondary: #475569;
+    --tertiary: #f1f5f9;
+    --content: #334155;
+    --hljs-bg: #f8fafc;
+    --code-bg: #f1f5f9;
+    --border: #e2e8f0;
+}
+
+/* Subtle background */
+body {
+    background: #fafbfc;
+    background-attachment: fixed;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--content);
+}
+
+/* Clean header */
+.header {
+    background: white;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Spacious content area */
+.main {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f1f5f9;
+}
+
+/* Elegant post entries */
+.post-entry {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.12);
+    border-color: var(--elegant-sky);
+}
+
+/* Readable links */
+a {
+    color: var(--elegant-blue);
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--elegant-sky);
+}
+
+/* Clear, readable headers */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--elegant-navy);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+}
+
+.post-title {
+    color: var(--elegant-navy);
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.2;
+}
+
+.post-content h1 {
+    color: var(--elegant-navy);
+    font-size: 2rem;
+}
+
+.post-content h2 {
+    color: var(--elegant-navy);
+    font-size: 1.5rem;
+}
+
+.post-content h3 {
+    color: var(--elegant-dark);
+    font-size: 1.25rem;
+}
+
+/* Refined tag styling */
+.post-tags li {
+    background: var(--elegant-lightest);
+    border: 1px solid var(--elegant-light);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.post-tags li:hover {
+    background: var(--elegant-blue);
+    border-color: var(--elegant-blue);
+    transform: translateY(-1px);
+}
+
+.post-tags li:hover a {
+    color: white;
+}
+
+.post-tags a {
+    color: var(--elegant-blue);
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+/* Elegant poetry table */
+.poetry-table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    font-size: 1rem;
+}
+
+.poetry-table th {
+    background: var(--elegant-navy);
+    color: white;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.9375rem;
+    padding: 14px 12px;
+}
+
+.poetry-table td {
+    color: var(--content);
+    font-size: 0.9375rem;
+    padding: 14px 12px;
+}
+
+.poetry-table tr:hover {
+    background: var(--elegant-lightest);
+}
+
+.poetry-table tr {
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.poem-number {
+    color: var(--elegant-blue);
+    font-weight: 600;
+}
+
+.poem-date {
+    color: var(--elegant-gray);
+}
+
+.poem-description {
+    color: var(--secondary);
+    font-style: normal;
+}
+
+/* Clean navigation */
+.paginav a {
+    background: white;
+    border: 1px solid #e2e8f0;
+    color: var(--elegant-blue);
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.paginav a:hover {
+    background: var(--elegant-lightest);
+    border-color: var(--elegant-blue);
+}
+
+.paginav .title {
+    color: var(--elegant-gray);
+    text-transform: none;
+    font-size: 0.875rem;
+    letter-spacing: 0;
+}
+
+/* Welcoming home section */
+.home-info {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Code blocks */
+pre, code {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+/* Breadcrumbs */
+.breadcrumbs a {
+    color: var(--elegant-blue);
+    font-weight: 400;
+}
+
+.breadcrumbs a:hover {
+    color: var(--elegant-sky);
+}
+
+/* Footer */
+.footer {
+    background: #fafbfc;
+    border-top: 1px solid #e2e8f0;
+    color: var(--secondary);
+}
+
+/* Archive entries */
+.archive-entry {
+    border-left: 3px solid var(--elegant-light);
+    padding-left: 1rem;
+    transition: all 0.2s ease;
+}
+
+.archive-entry:hover {
+    border-left-color: var(--elegant-blue);
+    transform: translateX(4px);
+}
+
+.archive-entry-title {
+    color: var(--elegant-dark);
+    font-weight: 500;
+}
+
+/* Menu */
+.menu a {
+    transition: color 0.2s ease;
+    font-weight: 500;
+    color: var(--elegant-dark);
+}
+
+.menu a:hover {
+    color: var(--elegant-blue) !important;
+}
+
+/* Post content readability */
+.post-content {
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--content);
+}
+
+.post-content p {
+    margin-bottom: 1.5em;
+}
+
+.post-content a {
+    color: var(--elegant-blue);
+    border-bottom: 1px solid var(--elegant-light);
+}
+
+.post-content a:hover {
+    color: var(--elegant-sky);
+    border-bottom-color: var(--elegant-sky);
+}
+
+/* Entry content */
+.entry-content {
+    color: var(--secondary);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+/* Post meta */
+.post-meta {
+    color: var(--elegant-gray);
+    font-size: 0.9375rem;
+}
+
+/* Smooth transitions */
+* {
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Remove transition from text color for better readability */
+h1, h2, h3, h4, h5, h6, p, a, span {
+    transition: color 0.15s ease;
+}
+
+/* Button styling */
+.button {
+    background: var(--elegant-blue);
+    color: white;
+    font-weight: 500;
+}
+
+.button:hover {
+    background: var(--elegant-sky);
+}
+
+/* Page header */
+.page-header h1 {
+    color: var(--elegant-navy);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Improved spacing */
+.post-header {
+    margin-bottom: 2.5rem;
+}
+
+.post-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* ========================================
+   DARK MODE SUPPORT
+   ======================================== */
+
+:root[data-theme="dark"] {
+    /* Dark mode color palette */
+    --elegant-navy: #60a5fa;
+    --elegant-blue: #3b82f6;
+    --elegant-sky: #60a5fa;
+    --elegant-accent: #93c5fd;
+    --elegant-light: #1e3a8a;
+    --elegant-lightest: #1e293b;
+    --elegant-dark: #e2e8f0;
+    --elegant-gray: #94a3b8;
+
+    /* Dark mode base colors */
+    --theme: #0f172a;
+    --entry: #1e293b;
+    --primary: #e2e8f0;
+    --secondary: #94a3b8;
+    --tertiary: #1e293b;
+    --content: #cbd5e1;
+    --hljs-bg: #1e293b;
+    --code-bg: #1e293b;
+    --border: #334155;
+}
+
+[data-theme="dark"] body {
+    background: #0a0f1e;
+    color: var(--content);
+}
+
+[data-theme="dark"] .header {
+    background: rgba(15, 23, 42, 0.95);
+    border-bottom: 1px solid #334155;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .main {
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .post-entry {
+    background: #1e293b;
+    border: 1px solid #334155;
+}
+
+[data-theme="dark"] .post-entry:hover {
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.2);
+    border-color: var(--elegant-blue);
+}
+
+[data-theme="dark"] a {
+    color: var(--elegant-sky);
+}
+
+[data-theme="dark"] a:hover {
+    color: var(--elegant-accent);
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .post-title {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .post-tags li {
+    background: #1e293b;
+    border: 1px solid #334155;
+}
+
+[data-theme="dark"] .post-tags li:hover {
+    background: var(--elegant-blue);
+    border-color: var(--elegant-blue);
+}
+
+[data-theme="dark"] .post-tags a {
+    color: var(--elegant-sky);
+}
+
+[data-theme="dark"] .poetry-table {
+    background: #1e293b;
+    border: 1px solid #334155;
+}
+
+[data-theme="dark"] .poetry-table th {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+}
+
+[data-theme="dark"] .poetry-table td {
+    color: var(--content);
+}
+
+[data-theme="dark"] .poetry-table tr:hover {
+    background: #334155;
+}
+
+[data-theme="dark"] .poetry-table tr {
+    border-bottom: 1px solid #334155;
+}
+
+[data-theme="dark"] .poem-number {
+    color: var(--elegant-sky);
+}
+
+[data-theme="dark"] .poem-date {
+    color: var(--elegant-gray);
+}
+
+[data-theme="dark"] .poem-description {
+    color: var(--secondary);
+}
+
+[data-theme="dark"] .paginav a {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: var(--elegant-sky);
+}
+
+[data-theme="dark"] .paginav a:hover {
+    background: #334155;
+    border-color: var(--elegant-blue);
+}
+
+[data-theme="dark"] .paginav .title {
+    color: var(--elegant-gray);
+}
+
+[data-theme="dark"] .home-info {
+    background: #1e293b;
+    border: 1px solid #334155;
+}
+
+[data-theme="dark"] pre,
+[data-theme="dark"] code {
+    background: #1e293b;
+    border: 1px solid #334155;
+}
+
+[data-theme="dark"] .breadcrumbs a {
+    color: var(--elegant-sky);
+}
+
+[data-theme="dark"] .footer {
+    background: #0a0f1e;
+    border-top: 1px solid #334155;
+    color: var(--secondary);
+}
+
+[data-theme="dark"] .archive-entry {
+    border-left: 3px solid #334155;
+}
+
+[data-theme="dark"] .archive-entry:hover {
+    border-left-color: var(--elegant-blue);
+    background: #1e293b;
+}
+
+[data-theme="dark"] .archive-entry-title {
+    color: var(--elegant-dark);
+}
+
+[data-theme="dark"] .menu a {
+    color: var(--elegant-dark);
+}
+
+[data-theme="dark"] .menu a:hover {
+    color: var(--elegant-sky) !important;
+}
+
+[data-theme="dark"] .post-content {
+    color: var(--content);
+}
+
+[data-theme="dark"] .post-content a {
+    color: var(--elegant-sky);
+    border-bottom: 1px solid #334155;
+}
+
+[data-theme="dark"] .post-content a:hover {
+    color: var(--elegant-accent);
+    border-bottom-color: var(--elegant-accent);
+}
+
+[data-theme="dark"] .post-content h1,
+[data-theme="dark"] .post-content h2,
+[data-theme="dark"] .post-content h3 {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .entry-content {
+    color: var(--secondary);
+}
+
+[data-theme="dark"] .post-meta {
+    color: var(--elegant-gray);
+}
+
+[data-theme="dark"] .button {
+    background: var(--elegant-blue);
+}
+
+[data-theme="dark"] .button:hover {
+    background: var(--elegant-sky);
+}
+
+[data-theme="dark"] .page-header h1 {
+    color: #e2e8f0;
+}
+
+[data-theme="dark"] .post-footer {
+    border-top: 1px solid #334155;
+}
+
+[data-theme="dark"] .post-description {
+    color: var(--secondary);
+}
