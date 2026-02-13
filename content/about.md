@@ -6,22 +6,30 @@ title = 'About'
 
 ## Hello!
 
-I'm Viswajeeet Balaji, a senior software engineer building large-scale AI systems at Amazon. I spend my days working on LLM inference infrastructure for Amazon Bedrock, and my evenings exploring the intersections of technology, philosophy, and creative expression through writing.
+I'm Viswajeeet Balaji, a senior software engineer building large-scale AI systems at Amazon. I spend my days working on agentic tools and infrastructure at AWS, and my evenings exploring the intersections of technology, philosophy, and creative expression through writing.
 
 ## What I Do
 
-Currently, I'm a lead engineer on the Anthropic Inference Control Plane team at **Amazon Bedrock**, where I work on:
+Currently, I'm a tech lead for **AgentCore CodeInterpreter and Browser tools** at **Amazon Web Services**, where I:
 
-- **AI Infrastructure:** Building data center topology-aware GPU placement systems for efficient LLM inference - reducing capacity movement from days to minutes
-- **Model Launches:** Tech lead for Claude 4 Sonnet and Claude 3.7 Sonnet launches, supporting extended timeouts, prompt caching (up to 90% throughput improvement), and cross-region inference
-- **Model Fine-tuning:** Founding engineer for Claude 3 Haiku Model Fine Tuning, delivering from private preview to general availability in under 6 months
+- Build secure, session-isolated serverless tools that connect agents with code execution and browsing capabilities
+- Enable agentic workflows and deep research capabilities for AWS customers
+- Design and implement tools that unblock complex agent interactions
 
-Before joining Bedrock, I built fraud detection systems at Amazon (2021-2023) and worked on reinforcement learning models for email triage at **Microsoft** (2020-2021), shipping features to 100M+ Outlook users.
+[Learn more about AgentCore built-in tools](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/built-in-tools.html)
+
+Previously, I was a lead engineer on the Anthropic Inference Control Plane team at **Amazon Bedrock** (Oct 2023 - Aug 2025), where I:
+
+- Built data center topology-aware GPU placement systems for efficient LLM inference
+- Served as tech lead for Claude 4 Sonnet and Claude 3.7 Sonnet launches
+- Was founding engineer for Claude 3 Haiku Model Fine Tuning
+
+Before that, I built fraud detection systems at Amazon (2021-2023) and worked on reinforcement learning models for email triage at **Microsoft** (2020-2021), shipping features to 100M+ Outlook users.
 
 ## Education
 
-- **M.S. in Data Analytics** (Reinforcement Learning & Deep Learning) - Georgia Institute of Technology (4.00 GPA, completed 2-year program in 8 months)
-- **B.S. in Computer Science, Mathematics & Statistics** (Triple Major) - Purdue University (4.00 GPA, completed 4-year program in 2.5 years)
+- **M.S. in Data Analytics** (Reinforcement Learning & Deep Learning) - Georgia Institute of Technology
+- **B.S. in Computer Science, Mathematics & Statistics** (Triple Major) - Purdue University
 
 ## Beyond the Code
 
