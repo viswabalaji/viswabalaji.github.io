@@ -1,7 +1,7 @@
 +++
 date = '2020-11-30'
 draft = false
-title = 'Poem 16: Stresslight'
+title = 'Stresslight'
 number = 16
 description = 'A moonlit moment at Lake Ashi, Japan: stress transforms into renewed strength'
 tags = ["stress", "mental-health", "modern-life"]

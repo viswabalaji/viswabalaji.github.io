@@ -1,7 +1,7 @@
 +++
 date = '2020-11-10'
 draft = false
-title = 'Poem 14: Fancy Protection'
+title = 'Fancy Protection'
 number = 14
 description = 'Contemplating faith, fate, fear, and the protective rituals we create'
 tags = ["protection", "masks", "society"]

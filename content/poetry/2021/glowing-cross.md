@@ -1,7 +1,7 @@
 +++
 date = '2021-11-09'
 draft = false
-title = 'Poem 31: Glowing Cross'
+title = 'Glowing Cross'
 number = 31
 description = "A glowing cross atop a lone peak watches over a small town like Horus's eye"
 tags = ["religion", "symbolism", "community"]

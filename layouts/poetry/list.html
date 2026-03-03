@@ -55,7 +55,8 @@
     <table class="poetry-table">
       <thead>
         <tr>
-          <th style="width: 35%">Title</th>
+          <th style="width: 5%">No.</th>
+          <th style="width: 30%">Title</th>
           <th style="width: 12%">Date</th>
           <th style="width: 53%">Description</th>
         </tr>
@@ -65,6 +66,7 @@
           {{ if in .RelPermalink "/poetry/" }}
             {{ if not (in .RelPermalink "/_index") }}
               <tr>
+                <td class="poem-number">{{ .Params.number }}</td>
                 <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
                 <td class="poem-date">{{ .Date.Format "Jan 2, 2006" }}</td>
                 <td class="poem-description">{{ .Params.description | default "No description available" }}</td>

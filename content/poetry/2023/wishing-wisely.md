@@ -1,7 +1,7 @@
 +++
 date = '2023-07-25'
 draft = false
-title = 'Poem 37: Wishing Wisely'
+title = 'Wishing Wisely'
 number = 37
 description = 'Wishing for ghosts at midnight: proof of Gods and the question of living now or later'
 tags = ["wishes", "wisdom", "choices"]

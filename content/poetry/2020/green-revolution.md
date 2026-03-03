@@ -1,7 +1,7 @@
 +++
 date = '2020-07-15'
 draft = false
-title = 'Poem 2: Green Revolution'
+title = 'Green Revolution'
 number = 2
 description = "India's agricultural transformation: progress and environmental cost in rhyming verse"
 tags = ["agriculture", "India", "environment"]

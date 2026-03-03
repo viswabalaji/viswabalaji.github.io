@@ -1,7 +1,7 @@
 +++
 date = '2020-08-21'
 draft = false
-title = 'Poem 5: Emotion Map'
+title = 'Emotion Map'
 number = 5
 description = "How Taylor Swift's music transformed philosophical thoughts into colorful emotions"
 tags = ["music", "emotions", "philosophy"]

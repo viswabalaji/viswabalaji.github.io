@@ -1,7 +1,7 @@
 +++
 date = '2020-10-10'
 draft = false
-title = 'Poem 11: Midnight Stroll'
+title = 'Midnight Stroll'
 number = 11
 description = 'Quiet contemplation during a midnight walk through hallowed hallways and starlight'
 tags = ["city", "solitude", "night"]

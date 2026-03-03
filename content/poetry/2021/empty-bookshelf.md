@@ -1,7 +1,7 @@
 +++
 date = '2021-08-18'
 draft = false
-title = 'Poem 27: Empty Bookshelf'
+title = 'Empty Bookshelf'
 number = 27
 description = "At Warren's auction, the last person becomes part of the empty bookshelf"
 tags = ["belonging", "books", "identity"]

@@ -1,7 +1,7 @@
 +++
 date = '2020-12-11'
 draft = false
-title = 'Poem 17: Scala Naturae'
+title = 'Scala Naturae'
 number = 17
 description = 'Life as chains: DNA, memory, and the five stages from birth to old age'
 tags = ["evolution", "hierarchy", "nature"]

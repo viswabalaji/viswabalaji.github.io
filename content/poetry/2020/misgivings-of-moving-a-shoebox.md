@@ -1,7 +1,7 @@
 +++
 date = '2020-06-13'
 draft = false
-title = 'Poem 1: Misgivings of Moving a Shoebox'
+title = 'Misgivings of Moving a Shoebox'
 number = 1
 description = 'A shoebox becomes a symbol of immigrant identity and the weight of small decisions'
 tags = ["immigrant-experience", "identity", "philosophy"]

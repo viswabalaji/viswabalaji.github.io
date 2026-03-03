@@ -1,7 +1,7 @@
 +++
 date = '2021-08-02'
 draft = false
-title = 'Poem 22: Red Band'
+title = 'Red Band'
 number = 22
 description = 'A mysterious red band on my wrist: everyone projects their own meaning'
 tags = ["barriers", "rules", "boundaries"]

@@ -182,51 +182,28 @@ a.post-tag {
   display: none !important;
 }
 
-// Site footer with logo
-.site-footer {
-  margin-top: 6rem !important;
-  padding: 3rem 1.5rem 2rem !important;
-  border-top: 1px solid #e8e6e3 !important;
-  text-align: center !important;
-}
+// Footer styling
+.footer {
+  margin-top: 4rem !important;
+  padding: 1.5rem 1.5rem 1rem !important;
 
-.footer-content {
-  max-width: 720px !important;
-  margin: 0 auto !important;
-}
+  .footer_social-icons {
+    gap: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
 
-.footer-logo {
-  font-size: 2.5rem !important;
-  font-weight: 700 !important;
-  color: rgba(13, 18, 43, 0.15) !important;
-  margin-bottom: 1.5rem !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif !important;
-  letter-spacing: -0.05em !important;
-}
-
-.footer-links {
-  display: flex !important;
-  justify-content: center !important;
-  gap: 1.5rem !important;
-
-  a {
-    color: #6b7280 !important;
-    text-decoration: none !important;
-    transition: all 0.2s ease !important;
-    display: flex !important;
-    align-items: center !important;
-
-    svg {
-      opacity: 0.6 !important;
-    }
-
-    &:hover {
-      color: #0d122b !important;
-
+    a {
       svg {
+        opacity: 0.6 !important;
+      }
+
+      &:hover svg {
         opacity: 1 !important;
       }
     }
+  }
+
+  .footer_copyright {
+    font-size: 0.875rem !important;
   }
 }
 
@@ -297,21 +274,6 @@ a.post-tag {
       }
     }
 
-    .site-footer {
-      border-top-color: #1b1d25 !important;
-
-      .footer-logo {
-        color: rgba(234, 234, 234, 0.15) !important;
-      }
-
-      .footer-links a {
-        color: #767f87 !important;
-
-        &:hover {
-          color: #eaeaea !important;
-        }
-      }
-    }
   }
 }
 
@@ -382,21 +344,6 @@ html.dark {
     }
   }
 
-  .site-footer {
-    border-top-color: #1b1d25 !important;
-
-    .footer-links a {
-      color: #eaeaea !important;
-    }
-
-    .footer-separator {
-      color: #767f87 !important;
-    }
-
-    .footer-copyright {
-      color: #767f87 !important;
-    }
-  }
 }
 
 

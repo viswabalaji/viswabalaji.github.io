@@ -1,7 +1,7 @@
 +++
 date = '2021-08-20'
 draft = false
-title = 'Poem 29: A Photo'
+title = 'A Photo'
 number = 29
 description = 'A photo of her touching my hand: I am death, the destroyer of worlds'
 tags = ["memory", "longing", "loss"]

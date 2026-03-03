@@ -1,7 +1,7 @@
 +++
 date = '2021-08-16'
 draft = false
-title = 'Poem 26: Keel'
+title = 'Keel'
 number = 26
 description = 'French window contemplation: do I see everything at once or nothing at all?'
 tags = ["balance", "balance", "journey"]

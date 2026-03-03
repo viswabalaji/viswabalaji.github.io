@@ -1,7 +1,7 @@
 +++
 date = '2020-08-20'
 draft = false
-title = 'Poem 4: Coca-Cola: An Incredible Life Partner'
+title = 'Coca-Cola: An Incredible Life Partner'
 number = 4
 description = 'A love-hate ode to Coca-Cola as stress relief and guilty pleasure'
 tags = ["nostalgia", "consumerism", "childhood"]

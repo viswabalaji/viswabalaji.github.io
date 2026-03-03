@@ -1,7 +1,7 @@
 +++
 date = '2021-06-12'
 draft = false
-title = 'Poem 19: White Sailboat'
+title = 'White Sailboat'
 number = 19
 description = 'Moonlit beach scene contemplating distance, longing, and the phrase "I am who I am"'
 tags = ["ocean", "adventure", "freedom"]

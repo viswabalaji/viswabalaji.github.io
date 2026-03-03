@@ -1,7 +1,7 @@
 +++
 date = '2021-07-30'
 draft = false
-title = 'Poem 20: Misty Haze'
+title = 'Misty Haze'
 number = 20
 description = "Navigating life's events through misty uncertainty: always adore the haze"
 tags = ["uncertainty", "zen", "acceptance"]

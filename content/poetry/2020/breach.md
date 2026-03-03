@@ -1,7 +1,7 @@
 +++
 date = '2020-10-25'
 draft = false
-title = 'Poem 12: Breach'
+title = 'Breach'
 number = 12
 description = 'The impossibility of reaching certain goals: I cannot reach, but only breach'
 tags = ["trust", "vulnerability", "relationships"]

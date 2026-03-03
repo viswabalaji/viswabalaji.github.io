@@ -1,7 +1,7 @@
 +++
 date = '2021-08-18'
 draft = false
-title = 'Poem 28: Green Light'
+title = 'Green Light'
 number = 28
 description = 'Young Ada discovers glow-in-the-dark stars and dreams of becoming a star maker'
 tags = ["nature", "exploration", "zen"]

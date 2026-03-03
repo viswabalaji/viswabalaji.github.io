@@ -1,7 +1,7 @@
 +++
 date = '2021-08-03'
 draft = false
-title = 'Poem 23: Cogito, ergo sum'
+title = 'Cogito, ergo sum'
 number = 23
 description = 'The observer is the observed: ending duality to find bliss without conflict'
 tags = ["philosophy", "existence", "thought"]

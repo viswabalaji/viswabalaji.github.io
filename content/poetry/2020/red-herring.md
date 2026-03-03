@@ -1,7 +1,7 @@
 +++
 date = '2020-11-01'
 draft = false
-title = 'Poem 13: Red Herring'
+title = 'Red Herring'
 number = 13
 description = 'Sisyphean struggle between rest and restlessness, work and recovery'
 tags = ["logic", "deception", "mystery"]

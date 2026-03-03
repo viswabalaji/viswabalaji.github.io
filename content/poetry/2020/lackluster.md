@@ -1,7 +1,7 @@
 +++
 date = '2020-09-01'
 draft = false
-title = 'Poem 7: Lackluster'
+title = 'Lackluster'
 number = 7
 description = 'A recursive meta-poem with layers of observation: girl, author, you running in the park'
 tags = ["recursion", "structure", "structure"]

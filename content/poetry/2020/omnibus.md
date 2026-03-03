@@ -1,7 +1,7 @@
 +++
 date = '2020-09-26'
 draft = false
-title = 'Poem 10: Omnibus'
+title = 'Omnibus'
 number = 10
 description = 'A bus ride through Seattle becomes a metaphor for the journey of life on Earth'
 tags = ["metaphor", "journey", "life-stages"]
