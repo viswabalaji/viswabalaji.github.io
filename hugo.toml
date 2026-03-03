@@ -1,39 +1,25 @@
 baseURL = 'https://viswabalaji.github.io/'
 languageCode = 'en-us'
 title = 'Viswa Balaji'
-theme = 'PaperMod'
-googleAnalytics = 'G-R17Z0BWKKN'
+theme = 'hugo-blog-awesome'
+
+[services.googleAnalytics]
+  id = 'G-R17Z0BWKKN'
 
 [params]
+  sitename = "Viswa Balaji"
   description = "Writing on technical topics, poetry, and short stories"
-  author = "Viswa Balaji"
+  mainSections = ['technical', 'poetry', 'stories']
+  defaultColor = "auto"
+  toc = true
+  tocOpen = true
+  goToTop = true
 
-  # Analytics
-  [params.analytics.google]
-    SiteVerificationTag = "G-R17Z0BWKKN"
+  [params.author]
+    name = "Viswa Balaji"
+    intro = "Viswa Balaji"
+    description = "Writing on technical topics, poetry, and short stories"
 
-  # PaperMod features
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
-  disableSpecial1stPost = false
-  disableScrollToTop = false
-  comments = false
-  hidemeta = false
-  hideSummary = false
-  showtoc = true
-  tocopen = true
-
-  [params.homeInfoParams]
-    Title = "Welcome"
-    Content = """
-A collection of technical writing, poetry, and short stories exploring philosophy, computer science, AI, biology, and the human experience.
-"""
 
 [[params.socialIcons]]
   name = "github"
