@@ -49,10 +49,12 @@
             </div>
         </article>
 
-        <!-- Table of Contents Sidebar -->
+        <!-- Table of Contents Sidebar (only show if content has headings) -->
+        {{ if gt (len .Fragments.Headings) 0 }}
         <aside class="post-toc-sidebar">
             {{ partial "toc.html" . }}
         </aside>
+        {{ end }}
 
         {{- partial "comments.html" . -}}
     </main>

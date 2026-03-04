@@ -1,85 +1,36 @@
-{{ define "main" }}
-<article class="post-single">
-  <header class="post-header">
-    <h1 class="post-title">{{ .Title }}</h1>
-    <div class="post-description">{{ .Content }}</div>
-  </header>
+{{- define "main" -}}
+<div class="wrapper list-page">
+    <header class="header">
+        <h1 class="header-title center">{{ .Title }}</h1>
+    </header>
+    <main class="page-content" aria-label="Content">
+        {{/* Get all regular pages in poetry section */}}
+        {{ $pages := where .Site.RegularPages "Section" "poetry" }}
 
-  <div class="post-content">
-    <style>
-      /* Override theme's main-width variable for wider table */
-      :root {
-        --main-width: 1200px;
-      }
+        {{ range $pages.GroupByDate "2006" }}
+        {{ $year := .Key }}
+        <h2 class="post-year">{{ $year }}</h2>
 
-      .poetry-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 2em 0;
-      }
-      .poetry-table th {
-        background-color: var(--theme);
-        color: var(--primary);
-        padding: 12px;
-        text-align: left;
-        border-bottom: 2px solid var(--border);
-      }
-      .poetry-table td {
-        padding: 12px;
-        border-bottom: 1px solid var(--border);
-      }
-      .poetry-table tr:hover {
-        background-color: var(--code-bg);
-      }
-      .poetry-table a {
-        text-decoration: none;
-        color: var(--primary);
-      }
-      .poetry-table a:hover {
-        color: var(--theme);
-      }
-      .poem-number {
-        font-weight: bold;
-        color: var(--theme);
-      }
-      .poem-date {
-        color: var(--secondary);
-        font-size: 0.9em;
-      }
-      .poem-description {
-        font-style: italic;
-        color: var(--secondary);
-      }
-    </style>
+        {{ range .Pages }}
 
-    <table class="poetry-table">
-      <thead>
-        <tr>
-          <th style="width: 5%">No.</th>
-          <th style="width: 30%">Title</th>
-          <th style="width: 12%">Date</th>
-          <th style="width: 53%">Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{ range (.Site.RegularPages.ByParam "date").Reverse }}
-          {{ if in .RelPermalink "/poetry/" }}
-            {{ if not (in .RelPermalink "/_index") }}
-              <tr>
-                <td class="poem-number">{{ .Params.number }}</td>
-                <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-                <td class="poem-date">{{ .Date.Format "Jan 2, 2006" }}</td>
-                <td class="poem-description">{{ .Params.description | default "No description available" }}</td>
-              </tr>
+        <article class="post-item">
+            <h4 class="post-item-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h4>
+            {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+            {{ $configDateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+            <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
+                {{ time.Format $configDateFormat .Date }}
+            </time>
+            {{ with .Params.description }}
+            <p class="post-item-description">{{ . }}</p>
             {{ end }}
-          {{ end }}
-        {{ end }}
-      </tbody>
-    </table>
+        </article>
 
-    <p style="margin-top: 2em; color: var(--secondary);">
-      <strong>Total: {{ len (where .Site.RegularPages "Section" "poetry") }} poems</strong> spanning 2020-2023
-    </p>
-  </div>
-</article>
-{{ end }}
+        {{ end }}
+
+        {{ end }}
+
+    </main>
+</div>
+{{- end -}}

@@ -325,6 +325,49 @@ details.toc {
   }
 }
 
+// Wider container for list pages (especially poetry with descriptions)
+.wrapper.list-page {
+  max-width: 1000px !important;
+  padding: 0 2rem !important;
+
+  @media (max-width: 1100px) {
+    max-width: 90% !important;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100% !important;
+    padding: 0 1rem !important;
+  }
+}
+
+// Poetry list description styling - description on separate line below title+date
+.post-item {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: baseline !important;
+
+  .post-item-title {
+    flex: 0 1 auto !important;
+    margin-right: 1rem !important;
+  }
+
+  .post-item-meta {
+    flex: 0 0 auto !important;
+  }
+
+  .post-item-description {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    font-size: 0.875rem !important;
+    color: #6b7280 !important;
+    font-style: italic !important;
+    margin: 0.5rem 0 0 0 !important;
+    line-height: 1.4 !important;
+    padding: 0 !important;
+  }
+}
+
 // Footer styling
 .footer {
   margin-top: 4rem !important;
@@ -429,6 +472,10 @@ details.toc {
       time {
         color: #eaeaea !important;
       }
+    }
+
+    .post-item .post-item-description {
+      color: #9ca3af !important;
     }
 
     details.toc {
@@ -548,6 +595,10 @@ html.dark {
     time {
       color: #eaeaea !important;
     }
+  }
+
+  .post-item .post-item-description {
+    color: #9ca3af !important;
   }
 
   details.toc {
