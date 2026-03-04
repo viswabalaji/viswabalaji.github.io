@@ -8,8 +8,8 @@ theme = 'hugo-blog-awesome'
 
 [params]
   sitename = "Viswa Balaji"
-  description = "Writing on technical topics, poetry, short stories, and bookshelf"
-  mainSections = ['technical', 'poetry', 'stories', 'bookshelf']
+  description = "Writing on technical topics, poetry, short stories, essays, and bookshelf"
+  mainSections = ['technical', 'poetry', 'stories', 'essays', 'bookshelf']
   defaultColor = "auto"
   toc = true
   tocOpen = true
@@ -18,7 +18,7 @@ theme = 'hugo-blog-awesome'
   [params.author]
     name = "Viswa Balaji"
     intro = "Viswa Balaji"
-    description = "Writing on technical topics, poetry, short stories, and bookshelf"
+    description = "Writing on technical topics, poetry, short stories, essays, and bookshelf"
 
 
 [[params.socialIcons]]
@@ -43,6 +43,12 @@ theme = 'hugo-blog-awesome'
     name = "Stories"
     url = "/stories/"
     weight = 30
+
+  [[menu.main]]
+    identifier = "essays"
+    name = "Essays"
+    url = "/essays/"
+    weight = 32
 
   [[menu.main]]
     identifier = "bookshelf"
