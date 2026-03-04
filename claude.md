@@ -30,9 +30,17 @@ hugo new poetry/poem-name.md
 
 # Stories
 hugo new stories/story-name.md
+
+# Bookshelf (book notes)
+hugo new bookshelf/book-title.md
 ```
 
 After creating, use Write or Edit tool to add the content based on user's request.
+
+**For bookshelf posts**, include these frontmatter fields:
+- `author` - Book author (displays below title)
+- `description` - Brief summary
+- `tags` - Related topics
 
 ### Editing Content
 
@@ -109,10 +117,14 @@ content/
 ├── technical/    # Technical writing on CS, AI, philosophy, biology
 ├── poetry/       # Poetry
 ├── stories/      # Short fiction
+├── bookshelf/    # Book summaries and notes
 └── about.md      # About page
 
-hugo.toml         # Site configuration
-themes/PaperMod/  # Theme (don't edit)
+hugo.toml                        # Site configuration
+layouts/_default/single.html     # Custom post layout (with TOC sidebar)
+layouts/partials/toc-scroll-spy.html  # TOC scroll highlighting
+assets/sass/_custom.scss         # Custom styles
+themes/hugo-blog-awesome/        # Theme (don't edit directly)
 ```
 
 ## Important Notes
@@ -139,6 +151,35 @@ themes/PaperMod/  # Theme (don't edit)
 11. User: "Yes"
 12. Claude: Commit and push (after final confirmation)
 
+## Common Issues & Solutions
+
+### Hugo Server & Caching
+
+- **Hugo doesn't pick up frontmatter changes**: Restart the server with `pkill -9 hugo && hugo server -D`
+- **CSS changes not compiling**: Clear cache with `rm -rf resources/ public/` then restart
+- **Browser not showing changes**: This is almost always browser cache. Tell user to hard refresh (Cmd+Shift+R) or use incognito
+- **SASS calc() errors**: Complex calc expressions may fail in SASS. Simplify or use plain values
+
+### Hugo Template Context
+
+- Use `.Params.field` not `$.Params.field` when inside `{{ if .Params.something }}` blocks
+- Use `{{ if .Params.field }}` not `{{ with .Params.field }}` for conditional rendering with multiple fields
+- Hugo server needs restart after adding new frontmatter fields to content files
+
+### CSS & Layout
+
+- When adding sidebars, use `position: fixed` with media queries, not grid layouts that split main content
+- Check compiled CSS at `/style.min.[hash].css` to verify styles are actually present
+- TOC styling: Target `details.toc` not just `.toc` - it's a details element
+- Always add dark mode styles when adding new components
+
+### Table of Contents
+
+- TOC requires `[markup.tableOfContents]` config in hugo.toml
+- Theme renders TOC via `{{ partial "toc.html" . }}` - must be explicitly included in custom layouts
+- TOC scroll spy requires JavaScript for highlighting active sections
+- Position TOC sidebar with `position: fixed` and show only on wide screens (>1400px)
+
 ## Never Do
 
 - Don't push without asking
@@ -146,3 +187,5 @@ themes/PaperMod/  # Theme (don't edit)
 - Don't use bash for file operations when Write/Edit tools exist
 - Don't make assumptions about deployment timing
 - Don't skip the local preview step
+- Don't assume changes are visible - always account for browser/Hugo caching
+- Don't use complex calc() expressions in SASS that might fail compilation
