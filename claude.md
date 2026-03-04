@@ -48,6 +48,31 @@ After creating, use Write or Edit tool to add the content based on user's reques
 - Add Wikipedia links for specialized concepts/people (not common terms)
 - Use small link icons, not buttons, for external links
 
+**IMPORTANT - Validate after creating/editing content:**
+
+After creating or editing any content files, ALWAYS run a validation check:
+
+```bash
+# Kill existing server and clean build
+pkill -9 hugo && rm -rf resources/ public/
+
+# Try a clean build to catch errors
+hugo --quiet 2>&1
+```
+
+If this shows any errors (TOML parsing, template errors, etc.), fix them before proceeding.
+
+**Common TOML frontmatter issues:**
+- Apostrophes in single-quoted strings: Use double quotes for strings with apostrophes
+- Example: `title = "It's Working"` not `title = 'It's Working'`
+- Unescaped special characters in strings
+- Missing closing quotes or brackets
+
+After validation passes, restart the server:
+```bash
+hugo server -D > /tmp/hugo.log 2>&1 &
+```
+
 ### Editing Content
 
 1. Use Read tool to check current content
