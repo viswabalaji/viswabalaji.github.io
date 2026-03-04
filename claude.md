@@ -38,9 +38,15 @@ hugo new bookshelf/book-title.md
 After creating, use Write or Edit tool to add the content based on user's request.
 
 **For bookshelf posts**, include these frontmatter fields:
-- `author` - Book author (displays below title)
+- `author` - Book author (displays below title in italics)
+- `amazonLink` - Amazon URL (displays as small link icon next to author)
 - `description` - Brief summary
 - `tags` - Related topics
+
+**Style preferences for bookshelf:**
+- Keep writing crisp, to the point, CEO-style (no verbose ornate writing)
+- Add Wikipedia links for specialized concepts/people (not common terms)
+- Use small link icons, not buttons, for external links
 
 ### Editing Content
 
@@ -72,10 +78,10 @@ Only after user approves the changes:
 
 ```bash
 git add .
-git commit -m "Descriptive message
-
-Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
+git commit -m "Descriptive message with bullet points of key changes"
 ```
+
+**DO NOT include "Co-Authored-By" line - user preference.**
 
 **DO NOT push yet.**
 
@@ -189,3 +195,6 @@ themes/hugo-blog-awesome/        # Theme (don't edit directly)
 - Don't skip the local preview step
 - Don't assume changes are visible - always account for browser/Hugo caching
 - Don't use complex calc() expressions in SASS that might fail compilation
+- Don't add "Co-Authored-By" lines to commits
+- Don't use buttons for links - prefer small icons for external references
+- Don't use em dashes in writing - keep it simple
