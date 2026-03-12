@@ -50,13 +50,10 @@ After creating, use Write or Edit tool to add the content based on user's reques
 
 **IMPORTANT - Validate after creating/editing content:**
 
-After creating or editing any content files, ALWAYS run a validation check:
+Hugo supports hot reload - content changes are automatically detected. After creating or editing content files, validate the build:
 
 ```bash
-# Kill existing server and clean build
-pkill -9 hugo && rm -rf resources/ public/
-
-# Try a clean build to catch errors
+# Test build to catch errors (server keeps running)
 hugo --quiet 2>&1
 ```
 
@@ -68,10 +65,11 @@ If this shows any errors (TOML parsing, template errors, etc.), fix them before 
 - Unescaped special characters in strings
 - Missing closing quotes or brackets
 
-After validation passes, restart the server:
-```bash
-hugo server -D > /tmp/hugo.log 2>&1 &
-```
+**When to restart hugo server:**
+- Only restart if hot reload fails or you need to clear cache
+- SASS/CSS changes may require restart: `pkill -9 hugo && hugo server -D > /tmp/hugo.log 2>&1 &`
+- New frontmatter fields may require restart
+- For cache issues: `rm -rf resources/ public/` then restart
 
 ### Editing Content
 
