@@ -48,6 +48,14 @@ After creating, use Write or Edit tool to add the content based on user's reques
 - Add Wikipedia links for specialized concepts/people (not common terms)
 - Use small link icons, not buttons, for external links
 
+**Style preferences for technical articles:**
+- Write from direct experience perspective for senior engineer voice
+- Use full sentences, avoid sound bite style (short sentence fragments)
+- Avoid "not X, it's Y" or "X, not Y" patterns - write naturally
+- Remove redundant information that doesn't add new value
+- Avoid LLM-like phrasing and overly formal language
+- No em dashes - keep it simple
+
 **IMPORTANT - Validate after creating/editing content:**
 
 Hugo supports hot reload - content changes are automatically detected. After creating or editing content files, validate the build:
@@ -77,6 +85,29 @@ If this shows any errors (TOML parsing, template errors, etc.), fix them before 
 2. Use Edit or Write tool to make changes
 3. Inform user changes are visible immediately at localhost:1313
 4. Do NOT commit or push yet
+
+**Iterative editing process for technical articles:**
+- Make multiple editing passes
+- First pass: structure and content
+- Second pass: remove redundancies and check for repeated information
+- Third pass: tighten prose and fix style issues
+- Validate build with `hugo --quiet 2>&1` after each major change
+
+### Integrating External References
+
+When adding references to articles:
+
+1. Use WebFetch to understand external sources before referencing
+2. Integrate references naturally into article body with context and technical depth
+3. Don't just cite - add value by explaining what the reference contributes
+4. Add "## References" section at bottom with format: `[Title](url) - Source`
+5. Example:
+   ```markdown
+   ## References
+
+   - [Article Title](https://example.com/article) - Source Name
+   - [Another Article](https://example.com/other) - Other Source
+   ```
 
 ### Reviewing Changes
 
@@ -187,6 +218,7 @@ themes/hugo-blog-awesome/        # Theme (don't edit directly)
 - **Hugo doesn't pick up frontmatter changes**: Restart the server with `pkill -9 hugo && hugo server -D`
 - **CSS changes not compiling**: Clear cache with `rm -rf resources/ public/` then restart
 - **Browser not showing changes**: This is almost always browser cache. Tell user to hard refresh (Cmd+Shift+R) or use incognito
+- **Old URLs still accessible after file rename**: Full cache clear needed: `pkill -9 hugo && rm -rf resources/ public/ && hugo server -D > /tmp/hugo.log 2>&1 &`
 - **SASS calc() errors**: Complex calc expressions may fail in SASS. Simplify or use plain values
 
 ### Hugo Template Context
@@ -221,3 +253,5 @@ themes/hugo-blog-awesome/        # Theme (don't edit directly)
 - Don't add "Co-Authored-By" lines to commits
 - Don't use buttons for links - prefer small icons for external references
 - Don't use em dashes in writing - keep it simple
+- Don't use sound bite style or "not X, it's Y" patterns - write full sentences
+- Don't repeat information that doesn't add new value
