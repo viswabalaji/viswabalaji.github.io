@@ -84,6 +84,8 @@ This multiplies resource requirements linearly. Five agents per user means five 
 
 Sandbox forking enables speculative execution at the agent level. An agent exploring two different implementation approaches can fork the sandbox, run both paths independently, evaluate the results, and merge the successful path.
 
+[Recursive language models](https://alexzhang13.github.io/blog/2025/rlm/) push this pattern to a lower layer. Instead of agents calling sub-agents, the model calls another model instance to decompose problems as a tool. The root model receives only the query and accesses context stored in a Python REPL environment, then spawns recursive calls to partition, grep, and summarize data. This shifts decomposition decisions from human-designed workflows to the model itself. Sandboxing and forking become critical here. Each recursive model call needs an isolated execution environment with the REPL context, and forking enables spawning multiple instances without copying the entire context state.
+
 The sandbox-as-evaluation-harness pattern appeared in multiple contexts. Terminal bench running in sandboxes. RL training environments for agent skill development. The agent logic sits outside the sandbox, orchestrating execution and collecting results. This creates clean separation between the agent (the learner) and the environment (the simulation). The same forking mechanism used for parallel exploration can run evaluation suites.
 
 ## Conclusion
@@ -102,3 +104,4 @@ The infrastructure layer is solidifying:
 - [The Two Patterns by Which Agents Connect to Sandboxes](https://blog.langchain.com/the-two-patterns-by-which-agents-connect-sandboxes/) - LangChain Blog
 - [lat.md: Knowledge graphs for codebases](https://github.com/1st1/lat.md) - GitHub
 - [CPUs Are Back: The Datacenter CPU Shortage](https://newsletter.semianalysis.com/p/cpus-are-back-the-datacenter-cpu) - SemiAnalysis
+- [Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) - Alex Zhang
