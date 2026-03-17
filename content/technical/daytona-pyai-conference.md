@@ -36,6 +36,8 @@ agent.call_tool("sandbox.execute", {
 
 The trade-offs are real. Agent-in-sandbox mirrors local development closely with direct filesystem access, but requires API credentials inside the sandbox, creating security vulnerabilities. Container rebuilds slow iteration. Sandbox-as-tool keeps credentials secure outside, enables rapid agent iteration without rebuilds, and supports parallel execution across multiple sandboxes. The cost is network latency on each remote execution call.
 
+A middle-ground approach emerged at PyAI with [Monty](https://github.com/pydantic/monty), a Python interpreter written in Rust for executing model-generated code. Instead of choosing between full OS sandboxes or stateless execution, Monty provides a controlled Python runtime with explicit boundaries to host functions. This gives more flexibility than strict tool-calling while staying more controlled than open-ended sandbox compute. The approach addresses security concerns by limiting execution scope while maintaining enough capability for typical agent code generation tasks.
+
 The key innovation is treating forking as an execution primitive rather than a backup mechanism. Fork the sandbox to explore two implementation approaches in parallel. Test suites fork before each run for clean state without restart overhead. Agents checkpoint before risky operations and roll back instantly if something fails.
 
 The forking uses [copy-on-write](https://en.wikipedia.org/wiki/Copy-on-write) from a base image. Two forked paths share the base state and only pay for divergent modifications. This gives sub-second sandbox creation at scale and changes the economics of parallel exploration.
@@ -82,11 +84,23 @@ The search paradigm is evolving through three stages. First was one user searchi
 
 This multiplies resource requirements linearly. Five agents per user means five concurrent sandbox environments. Which agent runs when? How do agents share state? What happens when agents conflict? These orchestration questions become the product differentiation layer rather than sandbox implementation details.
 
+[Bauplan](https://www.bauplan.dev/) addresses these state management questions with a transactional pipeline model. Their approach maps software development primitives like branches, commits, and transactions to data workflows. Run the pipeline in an isolated branch, merge on success, keep main untouched on failure. This aligns well with agentic workflows where reproducibility, rollback, and auditability matter. The model treats data operations with the same version control guarantees that git provides for code.
+
 Sandbox forking enables speculative execution at the agent level. An agent exploring two different implementation approaches can fork the sandbox, run both paths independently, evaluate the results, and merge the successful path.
 
 [Recursive language models](https://alexzhang13.github.io/blog/2025/rlm/) push this pattern to a lower layer. Instead of agents calling sub-agents, the model calls another model instance to decompose problems as a tool. The root model receives only the query and accesses context stored in a Python REPL environment, then spawns recursive calls to partition, grep, and summarize data. This shifts decomposition decisions from human-designed workflows to the model itself. Sandboxing and forking become critical here. Each recursive model call needs an isolated execution environment with the REPL context, and forking enables spawning multiple instances without copying the entire context state.
 
 The sandbox-as-evaluation-harness pattern appeared in multiple contexts. Terminal bench running in sandboxes. RL training environments for agent skill development. The agent logic sits outside the sandbox, orchestrating execution and collecting results. This creates clean separation between the agent (the learner) and the environment (the simulation). The same forking mechanism used for parallel exploration can run evaluation suites.
+
+[FastAPI](https://fastapi.tiangolo.com/) is evolving to become AI-native with improved streaming patterns for real-time LLM responses. The framework now supports [Server-Sent Events](https://en.wikipedia.org/wiki/Server-sent_events), JSON Lines, and bytes streaming natively, with pyproject.toml-based setup and VS Code integration. These production-ready patterns make FastAPI feel optimized for modern AI backend infrastructure.
+
+## Maintainer Overhead and Quality Signals
+
+A recurring concern at PyAI was maintainer overhead from AI-generated contributions. Low-signal AI PRs, issues, and reviews are increasing triage load for open source maintainers. The discussions centered on creating reputation management systems similar to credit scores for contributors.
+
+This pressure extends beyond conference attendees. Pete Steinberger of [OpenClaw](https://openclaw.com/) and Daniel Stenberg of [curl](https://curl.se/) have documented the same patterns. Stenberg describes the phenomenon as "death by a thousand slops" and recently ended curl's bug bounty program due to AI-generated noise overwhelming legitimate reports. The cost of triaging automated contributions now exceeds the value they provide.
+
+The proposed solution involves persistent contributor identity with quality scoring. High-quality contributions increase reputation, enabling faster review paths. Low-quality patterns decrease reputation, triggering additional scrutiny or automatic filtering. This shifts the cost from maintainers doing manual triage to systems tracking contribution patterns over time. The challenge is building these reputation systems without creating barriers for legitimate new contributors while filtering automated noise.
 
 ## Conclusion
 
@@ -102,6 +116,11 @@ The infrastructure layer is solidifying:
 ## References
 
 - [The Two Patterns by Which Agents Connect to Sandboxes](https://blog.langchain.com/the-two-patterns-by-which-agents-connect-sandboxes/) - LangChain Blog
+- [Monty: Python interpreter in Rust](https://github.com/pydantic/monty) - Pydantic
 - [lat.md: Knowledge graphs for codebases](https://github.com/1st1/lat.md) - GitHub
+- [Bauplan: Git for Data](https://www.bauplan.dev/) - Bauplan
+- [FastAPI Documentation](https://fastapi.tiangolo.com/) - FastAPI
+- [Death by a thousand slops](https://daniel.haxx.se/blog/2025/01/07/death-by-a-thousand-slops/) - Daniel Stenberg
+- [The end of the curl bug bounty](https://daniel.haxx.se/blog/2024/08/26/the-end-of-the-curl-bug-bounty/) - Daniel Stenberg
 - [CPUs Are Back: The Datacenter CPU Shortage](https://newsletter.semianalysis.com/p/cpus-are-back-the-datacenter-cpu) - SemiAnalysis
 - [Recursive Language Models](https://alexzhang13.github.io/blog/2025/rlm/) - Alex Zhang
