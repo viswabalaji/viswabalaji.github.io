@@ -16,6 +16,8 @@ Most real deployments are multi-objective optimization problems, not single-obje
 
 ### Pareto-Optimal Is Not "Most Optimal"
 
+The term comes from Vilfredo Pareto, a 19th-century Italian economist who observed that a small fraction of the population held most of the wealth, and more broadly that many systems exhibit an unequal distribution of outcomes across a small set of inputs. That observation eventually generalized into a formal concept in multi-objective optimization: a solution is Pareto-optimal if no other solution can improve on one objective without making at least one other objective worse.
+
 In a single-objective problem, ranking is easy because every candidate is mapped to one scalar objective. In a multi-objective problem, the ordering becomes partial because many candidates are incomparable under the dominance relation. The Pareto frontier is the set of non-dominated candidates, where no candidate can improve one objective without degrading at least one other objective.
 
 That is why Pareto-optimal does not mean "most optimal." It means non-dominated with respect to a declared objective vector and feasible set. "Most optimal" appears only after scalarization, where we collapse several objectives into one score using weights or utility assumptions that are themselves policy choices. That distinction matters because teams routinely confuse "not dominated" with "globally best," and those are not the same claim.
