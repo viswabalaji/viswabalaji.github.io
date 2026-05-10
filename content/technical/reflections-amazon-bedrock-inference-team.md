@@ -1,6 +1,6 @@
 +++
 title = "Reflections on Amazon Bedrock Inference Team"
-date = 2024-09-02
+date = 2025-09-02
 draft = false
 tags = ["ai", "infrastructure", "career", "distributed-systems", "engineering-culture", "amazon-bedrock", "aws"]
 description = "Two years of lessons learned building and scaling Amazon Bedrock's AI model inference services, from model fine-tuning to Anthropic integration."

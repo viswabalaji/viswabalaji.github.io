@@ -1,0 +1,57 @@
+{{- define "main" -}}
+<div class="wrapper list-page">
+    <header class="header">
+        <h1 class="header-title center">{{ .Title }}</h1>
+    </header>
+    <main class="page-content" aria-label="Content">
+
+        <div class="bookshelf-tabs">
+            <input type="radio" name="bookshelf-tab" id="tab-recommended" checked>
+            <input type="radio" name="bookshelf-tab" id="tab-notes">
+            <div class="tab-labels">
+                <label for="tab-recommended">Recommended Reads</label>
+                <label for="tab-notes">Book Notes</label>
+            </div>
+
+            <div class="tab-panel tab-recommended-panel">
+                {{- with .Site.Data.recommended_books }}
+                <div class="book-covers-grid">
+                    {{- range . }}
+                    <a class="book-cover-item" href="{{ .link | default "#" }}" title="{{ .title }} by {{ .author }}">
+                        <img src="{{ with .cover }}{{ . }}{{ else }}https://covers.openlibrary.org/b/isbn/{{ .isbn }}-M.jpg{{ end }}" alt="{{ .title }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                        <div class="book-cover-placeholder"><span>{{ .title }}</span></div>
+                        <span class="book-cover-title">{{ .title }}</span>
+                        <span class="book-cover-author">{{ .author }}</span>
+                    </a>
+                    {{- end }}
+                </div>
+                {{- end }}
+            </div>
+
+            <div class="tab-panel tab-notes-panel">
+                {{- with .Pages }}
+                {{- range .GroupByDate "2006" }}
+                <h3 class="post-year">{{ .Key }}</h3>
+                {{- range .Pages }}
+                <article class="post-item">
+                    <h4 class="post-item-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h4>
+                    {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+                    {{ $configDateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+                    <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
+                        {{ time.Format $configDateFormat .Date }}
+                    </time>
+                    {{ with .Params.description }}
+                    <p class="post-item-description">{{ . }}</p>
+                    {{ end }}
+                </article>
+                {{- end }}
+                {{- end }}
+                {{- end }}
+            </div>
+        </div>
+
+    </main>
+</div>
+{{- end -}}

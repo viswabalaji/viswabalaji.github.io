@@ -1,0 +1,127 @@
+- title: Loonshots
+  author: Safi Bahcall
+  isbn: "1250185963"
+  cover: /images/books/loonshots.jpg
+  link: /bookshelf/loonshots/
+
+- title: "Godel, Escher, Bach"
+  author: Douglas Hofstadter
+  isbn: "0465026850"
+
+- title: The Selfish Gene
+  author: Richard Dawkins
+  isbn: "0199291152"
+
+- title: Leonardo da Vinci
+  author: Walter Isaacson
+  isbn: "1501139150"
+  cover: /images/books/leonardo-da-vinci.jpg
+
+- title: The Code Breaker
+  author: Walter Isaacson
+  isbn: "1982115858"
+  cover: /images/books/code-breaker.jpg
+
+- title: Benjamin Franklin
+  author: Walter Isaacson
+  isbn: "9780684807614"
+
+- title: Project Hail Mary
+  author: Andy Weir
+  isbn: "0593395565"
+
+- title: The Hard Thing About Hard Things
+  author: Ben Horowitz
+  isbn: "0062273205"
+
+- title: All Systems Red
+  author: Martha Wells
+  isbn: "1501977822"
+
+- title: Breakneck
+  author: Dan Wang
+  isbn: "0241729173"
+
+- title: Exhalation
+  author: Ted Chiang
+  isbn: "1101972084"
+  cover: /images/books/exhalation.jpg
+
+- title: Everything is Tuberculosis
+  author: John Green
+  isbn: "0525556575"
+
+- title: "Rosemary's Baby"
+  author: Ira Levin
+  isbn: "0449224988"
+  cover: /images/books/rosemarys-baby.jpg
+
+- title: A Brief History of Intelligence
+  author: Max Bennett
+  isbn: "0063286351"
+  cover: /images/books/brief-history-intelligence.jpg
+
+- title: Brave New World
+  author: Aldous Huxley
+  isbn: "0061767646"
+
+- title: From One Cell
+  author: Ben Stanger
+  isbn: "1324005424"
+  cover: /images/books/from-one-cell.jpg
+
+- title: Crime and Punishment
+  author: Fyodor Dostoevsky
+  isbn: "0451530063"
+
+- title: Black Flags
+  author: Joby Warrick
+  isbn: "0385538219"
+
+- title: Why We Sleep
+  author: Matthew Walker
+  isbn: "1501144316"
+
+- title: Nuclear War
+  author: Annie Jacobsen
+  isbn: "0593476093"
+  cover: /images/books/nuclear-war.jpg
+
+- title: The End of Average
+  author: Todd Rose
+  isbn: "0062358375"
+  cover: /images/books/end-of-average.jpg
+
+- title: But How Do It Know?
+  author: J. Clark Scott
+  isbn: "0615303765"
+  cover: /images/books/but-how-do-it-know.jpg
+
+- title: The Red Queen
+  author: Matt Ridley
+  isbn: "0060556579"
+
+- title: "Surely You're Joking, Mr. Feynman!"
+  author: Richard Feynman
+  isbn: "0393316041"
+
+- title: Into Thin Air
+  author: Jon Krakauer
+  isbn: "0385494785"
+
+- title: Into the Wild
+  author: Jon Krakauer
+  isbn: "0385486804"
+
+- title: Into the Great Emptiness
+  author: David Roberts
+  isbn: "0393868125"
+  cover: /images/books/into-great-emptiness.jpg
+
+- title: Prisoners of Geography
+  author: Tim Marshall
+  isbn: "1501121472"
+
+- title: Why We Die
+  author: Venki Ramakrishnan
+  isbn: "0063113279"

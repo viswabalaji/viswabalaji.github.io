@@ -51,6 +51,14 @@ After creating, use Write or Edit tool to add the content based on user's reques
 **Style preferences for technical articles:**
 - Write from direct experience perspective for senior engineer voice
 - Use full sentences, avoid sound bite style (short sentence fragments)
+- Prefer crisp, dense paragraphs for core arguments
+- Avoid choppy cadence created by too many one-line paragraphs
+- Keep paragraph length balanced: usually medium paragraphs (~5-6 lines), with occasional shorter breaks for clarity
+- Keep complete, meaningful sentences; avoid rhetorical fragments
+- Introduce advanced concepts gently before technical depth, and include one concrete example early
+- Use bullets only when they add real structure (checklists, references, explicit comparisons)
+- Keep some sections for navigability, but avoid over-sectioning the article
+- Prefer a small number of meaningful sections (roughly 4-7 for long technical posts)
 - Avoid "not X, it's Y" or "X, not Y" patterns - write naturally
 - Remove redundant information that doesn't add new value
 - Avoid LLM-like phrasing and overly formal language
@@ -254,4 +262,7 @@ themes/hugo-blog-awesome/        # Theme (don't edit directly)
 - Don't use buttons for links - prefer small icons for external references
 - Don't use em dashes in writing - keep it simple
 - Don't use sound bite style or "not X, it's Y" patterns - write full sentences
+- Don't write core ideas as fragmented one-liners separated by excessive blank lines
+- Don't overuse bullets when paragraph prose communicates the idea better
+- Don't split ideas into too many micro-sections with frequent heading breaks
 - Don't repeat information that doesn't add new value
