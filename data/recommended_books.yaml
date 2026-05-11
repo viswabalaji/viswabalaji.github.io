@@ -7,10 +7,12 @@
 - title: "Godel, Escher, Bach"
   author: Douglas Hofstadter
   isbn: "0465026850"
+  cover: /images/books/godel-escher-bach.jpg
 
 - title: The Selfish Gene
   author: Richard Dawkins
   isbn: "0199291152"
+  cover: /images/books/the-selfish-gene.jpg
 
 - title: Leonardo da Vinci
   author: Walter Isaacson
@@ -25,22 +27,27 @@
 - title: Benjamin Franklin
   author: Walter Isaacson
   isbn: "9780684807614"
+  cover: /images/books/benjamin-franklin.jpg
 
 - title: Project Hail Mary
   author: Andy Weir
   isbn: "0593395565"
+  cover: /images/books/project-hail-mary.jpg
 
 - title: The Hard Thing About Hard Things
   author: Ben Horowitz
   isbn: "0062273205"
+  cover: /images/books/the-hard-thing-about-hard-things.jpg
 
 - title: All Systems Red
   author: Martha Wells
   isbn: "1501977822"
+  cover: /images/books/all-systems-red.jpg
 
 - title: Breakneck
   author: Dan Wang
   isbn: "0241729173"
+  cover: /images/books/breakneck.jpg
 
 - title: Exhalation
   author: Ted Chiang
@@ -50,6 +57,7 @@
 - title: Everything is Tuberculosis
   author: John Green
   isbn: "0525556575"
+  cover: /images/books/everything-is-tuberculosis.jpg
 
 - title: "Rosemary's Baby"
   author: Ira Levin
@@ -64,6 +72,7 @@
 - title: Brave New World
   author: Aldous Huxley
   isbn: "0061767646"
+  cover: /images/books/brave-new-world.jpg
 
 - title: From One Cell
   author: Ben Stanger
@@ -73,14 +82,17 @@
 - title: Crime and Punishment
   author: Fyodor Dostoevsky
   isbn: "0451530063"
+  cover: /images/books/crime-and-punishment.jpg
 
 - title: Black Flags
   author: Joby Warrick
   isbn: "0385538219"
+  cover: /images/books/black-flags.jpg
 
 - title: Why We Sleep
   author: Matthew Walker
   isbn: "1501144316"
+  cover: /images/books/why-we-sleep.jpg
 
 - title: Nuclear War
   author: Annie Jacobsen
@@ -100,18 +112,22 @@
 - title: The Red Queen
   author: Matt Ridley
   isbn: "0060556579"
+  cover: /images/books/the-red-queen.jpg
 
 - title: "Surely You're Joking, Mr. Feynman!"
   author: Richard Feynman
   isbn: "0393316041"
+  cover: /images/books/surely-you-re-joking-mr-feynman.jpg
 
 - title: Into Thin Air
   author: Jon Krakauer
   isbn: "0385494785"
+  cover: /images/books/into-thin-air.jpg
 
 - title: Into the Wild
   author: Jon Krakauer
   isbn: "0385486804"
+  cover: /images/books/into-the-wild.jpg
 
 - title: Into the Great Emptiness
   author: David Roberts
@@ -121,7 +137,194 @@
 - title: Prisoners of Geography
   author: Tim Marshall
   isbn: "1501121472"
+  cover: /images/books/prisoners-of-geography.jpg
 
 - title: Why We Die
   author: Venki Ramakrishnan
   isbn: "0063113279"
+  cover: /images/books/why-we-die.jpg
+
+- title: "Prepared"
+  author: Diane Tavenner
+  isbn: "9781984826060"
+  cover: /images/books/prepared.jpg
+
+- title: "These Truths"
+  author: Jill Lepore
+  isbn: "9781664473768"
+  cover: /images/books/these-truths.jpg
+
+- title: "Invisible Women"
+  author: Carolina Criado-Perez
+  isbn: "9781784706289"
+  cover: /images/books/invisible-women.jpg
+
+- title: "Sapiens"
+  author: Yuval Noah Harari
+  isbn: "9789388241175"
+  cover: /images/books/sapiens.jpg
+
+- title: "Predictably Irrational"
+  author: Dan Ariely
+  isbn: "9780061353239"
+  cover: /images/books/predictably-irrational.jpg
+
+- title: "Hit Refresh"
+  author: Satya Nadella
+  isbn: "9781538454640"
+  cover: /images/books/hit-refresh.jpg
+
+- title: "The Fight is Our Fight"
+  author: Elizabeth Warren
+  isbn: "9781250120625"
+  cover: /images/books/the-fight-is-our-fight.jpg
+
+- title: "Hidden Order"
+  author: David Friedman
+  isbn: "9780887308857"
+  cover: /images/books/hidden-order.jpg
+
+- title: "Capitalism: The Unknown Ideal"
+  author: Ayn Rand
+  isbn: "9781433256172"
+  cover: /images/books/capitalism-the-unknown-ideal.jpg
+
+- title: "Life After Google"
+  author: George Gilder
+  isbn: "9781541457072"
+  cover: /images/books/life-after-google.jpg
+
+- title: "Homo Deus"
+  author: Yuval Noah Harari
+  isbn: "9780062955630"
+  cover: /images/books/homo-deus.jpg
+
+- title: "Thinking, Fast and Slow"
+  author: Daniel Kahneman
+  isbn: "9781535535830"
+  cover: /images/books/thinking-fast-and-slow.jpg
+
+- title: "21 Lessons for the 21st Century"
+  author: Yuval Noah Harari
+  isbn: "9781077086395"
+  cover: /images/books/21-lessons-for-the-21st-century.jpg
+
+- title: "A World In Disarray"
+  author: Richard Haass
+  isbn: "9780735208384"
+  cover: /images/books/a-world-in-disarray.jpg
+
+- title: "Godel's Proof"
+  author: Ernest Nagel, James Newman
+  isbn: "9780585452654"
+  cover: /images/books/godel-s-proof.jpg
+
+- title: "12 Rules for Life"
+  author: Jordan B. Peterson
+  isbn: "9780735278516"
+  cover: /images/books/12-rules-for-life.jpg
+
+- title: "Crossing the Chasm"
+  author: Geoffrey A. Moore
+  isbn: "9780061188077"
+  cover: /images/books/crossing-the-chasm.jpg
+
+- title: "Rejection Proof"
+  author: Jia Jiang
+  isbn: "9781847941459"
+  cover: /images/books/rejection-proof.jpg
+
+- title: "Man's Search for Meaning"
+  author: Viktor Frankl
+  isbn: "9780786198955"
+  cover: /images/books/man-s-search-for-meaning.jpg
+
+- title: "Infinite Powers"
+  author: Steven Strogatz
+  isbn: "9781786492975"
+  cover: /images/books/infinite-powers.jpg
+
+- title: "An Introduction to Political Philosophy"
+  author: Jonathan Wolff
+  isbn: "9780192892515"
+  cover: /images/books/an-introduction-to-political-philosophy.jpg
+
+- title: "The Culture Map"
+  author: Erin Meyer
+  isbn: "9781322543871"
+  cover: /images/books/the-culture-map.jpg
+
+- title: "Whistling Vivaldi"
+  author: Claude Steele
+  isbn: "9780393062496"
+  cover: /images/books/whistling-vivaldi.jpg
+
+- title: "Good Economics for Hard Times"
+  author: Abhijit Banerjee, Esther Duflo
+  isbn: "9781549128851"
+  cover: /images/books/good-economics-for-hard-times.jpg
+
+- title: "Too Much and Never Enough"
+  author: Mary Trump
+  isbn: "9781982141462"
+  cover: /images/books/too-much-and-never-enough.jpg
+
+- title: "The Story of Philosophy"
+  author: Will Durant
+  isbn: "9780671695002"
+  cover: /images/books/the-story-of-philosophy.jpg
+
+- title: "The Brothers Karamazov"
+  author: Fyodor Dostoevsky
+  isbn: "9780704327733"
+  cover: /images/books/the-brothers-karamazov.jpg
+
+- title: "Technically Wrong"
+  author: Sara Wachter-Boettcher
+  isbn: "9781681688626"
+  cover: /images/books/technically-wrong.jpg
+
+- title: "Antifragile"
+  author: Nassim Nicholas Taleb
+  isbn: "9780679645276"
+  cover: /images/books/antifragile.jpg
+
+- title: "Algorithms to Live By"
+  author: Brian Christian, Tom Griffiths
+  isbn: "9781480560390"
+  cover: /images/books/algorithms-to-live-by.jpg
+
+- title: "Guns, Germs, and Steel"
+  author: Jared Diamond
+  isbn: "9789639548923"
+  cover: /images/books/guns-germs-and-steel.jpg
+
+- title: "A Universe from Nothing"
+  author: Lawrence Krauss
+  isbn: "9781451624458"
+  cover: /images/books/a-universe-from-nothing.jpg
+
+- title: "The Accidental President"
+  author: A.J. Baime
+  isbn: "9798900343907"
+  cover: /images/books/the-accidental-president.jpg
+
+- title: "How to Fly a Horse"
+  author: Kevin Ashton
+  isbn: "9780099591771"
+  cover: /images/books/how-to-fly-a-horse.jpg
+
+- title: "Surreal Numbers"
+  author: Donald Knuth
+  isbn: "9780201038125"
+  cover: /images/books/surreal-numbers.jpg
+
+- title: "It's Not About the Burqa"
+  author: Mariam Khan
+  isbn: "9781509886388"
+  cover: /images/books/it-s-not-about-the-burqa.jpg
+
+- title: "The Pragmatic Programmer"
+  author: David Thomas, Andrew Hunt
+  isbn: "9780132119177"
+  cover: /images/books/the-pragmatic-programmer.jpg

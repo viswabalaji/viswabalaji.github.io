@@ -8,12 +8,17 @@
         <div class="bookshelf-tabs">
             <input type="radio" name="bookshelf-tab" id="tab-recommended" checked>
             <input type="radio" name="bookshelf-tab" id="tab-notes">
+            <input type="radio" name="bookshelf-tab" id="tab-posts">
+            <input type="radio" name="bookshelf-tab" id="tab-papers">
             <div class="tab-labels">
                 <label for="tab-recommended">Recommended Reads</label>
                 <label for="tab-notes">Book Notes</label>
+                <label for="tab-posts">Recommended Blog Posts</label>
+                <label for="tab-papers">Recommended Papers</label>
             </div>
 
             <div class="tab-panel tab-recommended-panel">
+                <p class="book-count">{{ len .Site.Data.recommended_books }} books read</p>
                 {{- with .Site.Data.recommended_books }}
                 <div class="book-covers-grid">
                     {{- range . }}
@@ -48,6 +53,42 @@
                 </article>
                 {{- end }}
                 {{- end }}
+                {{- end }}
+            </div>
+
+            <div class="tab-panel tab-posts-panel">
+                {{- with .Site.Data.recommended_posts }}
+                <div class="reading-list">
+                    {{- range . }}
+                    <article class="reading-list-item">
+                        <a href="{{ .url }}" target="_blank" rel="noopener">
+                            <h4 class="reading-list-title">{{ .title }}</h4>
+                        </a>
+                        <span class="reading-list-author">{{ .author }}</span>
+                        {{- with .tag }}
+                        <span class="reading-list-tag">{{ . }}</span>
+                        {{- end }}
+                    </article>
+                    {{- end }}
+                </div>
+                {{- end }}
+            </div>
+
+            <div class="tab-panel tab-papers-panel">
+                {{- with .Site.Data.recommended_papers }}
+                <div class="reading-list">
+                    {{- range . }}
+                    <article class="reading-list-item">
+                        <a href="{{ .url }}" target="_blank" rel="noopener">
+                            <h4 class="reading-list-title">{{ .title }}</h4>
+                        </a>
+                        <span class="reading-list-author">{{ .authors }}</span>
+                        {{- with .tag }}
+                        <span class="reading-list-tag">{{ . }}</span>
+                        {{- end }}
+                    </article>
+                    {{- end }}
+                </div>
                 {{- end }}
             </div>
         </div>

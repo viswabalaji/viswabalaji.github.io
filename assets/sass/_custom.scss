@@ -688,16 +688,17 @@ html.dark {
     display: none !important;
   }
 
-  #tab-recommended:checked ~ .tab-recommended-panel {
-    display: block !important;
-  }
-
-  #tab-notes:checked ~ .tab-notes-panel {
+  #tab-recommended:checked ~ .tab-recommended-panel,
+  #tab-notes:checked ~ .tab-notes-panel,
+  #tab-posts:checked ~ .tab-posts-panel,
+  #tab-papers:checked ~ .tab-papers-panel {
     display: block !important;
   }
 
   #tab-recommended:checked ~ .tab-labels label[for="tab-recommended"],
-  #tab-notes:checked ~ .tab-labels label[for="tab-notes"] {
+  #tab-notes:checked ~ .tab-labels label[for="tab-notes"],
+  #tab-posts:checked ~ .tab-labels label[for="tab-posts"],
+  #tab-papers:checked ~ .tab-labels label[for="tab-papers"] {
     color: var(--text-dark, #0d122b) !important;
     border-bottom-color: #003fff !important;
     font-weight: 600 !important;
@@ -760,6 +761,54 @@ html.dark {
   }
 }
 
+
+.reading-list {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+}
+
+.reading-list-item {
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 0.75rem !important;
+  padding: 0.75rem 0 !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+
+  a {
+    text-decoration: none !important;
+    flex-shrink: 0 !important;
+  }
+
+  .reading-list-title {
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    color: var(--text-dark, #0d122b) !important;
+    margin: 0 !important;
+    transition: color 0.2s ease !important;
+
+    &:hover {
+      color: #003fff !important;
+    }
+  }
+
+  .reading-list-author {
+    font-size: 0.8rem !important;
+    color: #6b7280 !important;
+    white-space: nowrap !important;
+  }
+
+  .reading-list-tag {
+    font-size: 0.7rem !important;
+    color: #6b7280 !important;
+    background: rgba(0, 0, 0, 0.05) !important;
+    padding: 2px 8px !important;
+    border-radius: 8px !important;
+    white-space: nowrap !important;
+    margin-left: auto !important;
+  }
+}
+
 html.dark {
   .bookshelf-tabs .tab-labels {
     border-bottom-color: #2a2a2a !important;
@@ -772,7 +821,9 @@ html.dark {
 
   .bookshelf-tabs {
     #tab-recommended:checked ~ .tab-labels label[for="tab-recommended"],
-    #tab-notes:checked ~ .tab-labels label[for="tab-notes"] {
+    #tab-notes:checked ~ .tab-labels label[for="tab-notes"],
+    #tab-posts:checked ~ .tab-labels label[for="tab-posts"],
+    #tab-papers:checked ~ .tab-labels label[for="tab-papers"] {
       color: #eaeaea !important;
       border-bottom-color: #77a8fd !important;
     }
@@ -783,6 +834,22 @@ html.dark {
     .book-cover-author { color: #9ca3af !important; }
     img { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important; }
     &:hover img { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6) !important; }
+  }
+
+  .reading-list-item {
+    border-bottom-color: #2a2a2a !important;
+
+    .reading-list-title {
+      color: #eaeaea !important;
+      &:hover { color: #77a8fd !important; }
+    }
+
+    .reading-list-author { color: #9ca3af !important; }
+
+    .reading-list-tag {
+      color: #9ca3af !important;
+      background: rgba(255, 255, 255, 0.06) !important;
+    }
   }
 }
 
@@ -854,4 +921,11 @@ html.dark .book-cover-placeholder {
       color: #9ca3af !important;
     }
   }
+}
+
+.book-count {
+  text-align: center !important;
+  font-size: 0.9rem !important;
+  color: #6b7280 !important;
+  margin: 0 0 1rem 0 !important;
 }

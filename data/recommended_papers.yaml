@@ -1,0 +1,44 @@
+- title: "Attention Is All You Need"
+  authors: Vaswani et al.
+  url: https://arxiv.org/abs/1706.03762
+  tag: ai
+
+- title: "The Google File System"
+  authors: Ghemawat et al.
+  url: https://research.google/pubs/the-google-file-system/
+  tag: distributed-systems
+
+- title: "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications"
+  authors: Stoica et al.
+  url: https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf
+  tag: distributed-systems
+
+- title: "Dynamo: Amazon's Highly Available Key-value Store"
+  authors: DeCandia et al.
+  url: https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+  tag: distributed-systems
+
+- title: "Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service"
+  authors: Elhemali et al.
+  url: https://www.usenix.org/conference/atc22/presentation/elhemali
+  tag: distributed-systems
+
+- title: "Amazon EBS: The Story of a Cloud Storage Service"
+  authors: Mai et al.
+  url: https://assets.amazon.science/77/7e/0e78d6854ae3b4c89f0994a454f9/amazon-ebs-the-story-of-a-cloud-storage-service-2.pdf
+  tag: distributed-systems
+
+- title: "Azure Cosmos DB: Pushing the Frontier of Globally Distributed Databases"
+  authors: Shukla et al.
+  url: https://azure.microsoft.com/en-us/blog/a-technical-overview-of-azure-cosmos-db/
+  tag: distributed-systems
+
+- title: "Firecracker: Lightweight Virtualization for Serverless Applications"
+  authors: Agache et al.
+  url: https://assets.amazon.science/96/c6/302e527240a3b1f86c86c3e8fc3d/firecracker-lightweight-virtualization-for-serverless-applications.pdf
+  tag: systems
+
+- title: "Majority is not Enough: Bitcoin Mining is Vulnerable"
+  authors: Eyal, Sirer
+  url: https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf
+  tag: distributed-systems
