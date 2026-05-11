@@ -929,3 +929,48 @@ html.dark .book-cover-placeholder {
   color: #6b7280 !important;
   margin: 0 0 1rem 0 !important;
 }
+
+// Share buttons
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+
+  .share-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-right: 0.25rem;
+  }
+
+  a {
+    color: #9ca3af;
+    transition: color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+
+    &:hover {
+      color: #374151;
+    }
+  }
+}
+
+// Dark mode share buttons
+[data-theme="dark"] .share-buttons {
+  border-top-color: #374151;
+
+  .share-label {
+    color: #9ca3af;
+  }
+
+  a {
+    color: #6b7280;
+
+    &:hover {
+      color: #d1d5db;
+    }
+  }
+}
