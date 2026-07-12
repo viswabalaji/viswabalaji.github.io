@@ -1,20 +1,22 @@
 +++
 date = '2026-07-11T19:03:37-07:00'
-draft = true
+draft = false
 title = 'Hiking Half Dome'
 description = 'A long day on Half Dome, from 4 am headlamps to cables, granite, waterfalls, and gratitude'
 tags = ["hiking", "Yosemite", "Half Dome", "nature", "mountains"]
 +++
 
+At 4 am, Half Dome was still an idea in the dark. We stood at the trailhead with headlamps on, bags heavy with water and sandwiches, pretending the question was whether to pee one last time and not whether we were ready for the cables.
+
 Half Dome at Yosemite National Park is a beast of a mountain. It is one of the most iconic and majestic-looking peaks humans are gifted enough to see. It is also a beast of a day hike. Stretching over 18 miles with a 5,000 ft elevation gain, it challenges most human beings physically and psychologically.
 
 For the few who train on significantly harder hikes, it may be easy to scoff at these "trivial" numbers. You can empathize by assuming this is equivalent to you trying a medium-level challenge, with non-trivial risk, in a field you don't dabble in.
 
-We are wired to reflexively think about risk-reward at various layers of abstraction. The innate reptilian brain, education systems, financial systems, and philosophical schools of thought all take a point of view on risk-reward. Humans sit at varying points on this spectrum. We are also consistently inconsistent in our risk appetite across different domains. So having a good group of friends whose risk-reward alignment matches yours is important before undertaking a hike such as Half Dome.
+Every serious hike eventually becomes a risk-reward argument with yourself. Your body has one opinion, your fear has another, your friends have a third, and the mountain does not care about any of them. Humans sit at varying points on this spectrum. We are also consistently inconsistent in our risk appetite across different domains. So having a good group of friends whose risk-reward alignment matches yours is important before undertaking a hike such as Half Dome.
 
 Uttering the words "Half Dome" to a friend over the phone, actually, even thinking about it, is sufficient to get the social media ball rolling, where your entire feed gets filled with anecdotes, dangers, best practices, sad stories, and conflicting guidance about the hike.
 
-For those not familiar with the "cables" section: the last 400 ft of elevation gain requires one to climb up a cliff face with steep exposure at a 45-degree angle on smooth granite. Hikers can hook into the steel cables with harnesses and pull themselves up. But during the summer season, from late May to late September, the wonderful rangers at the park set up the cables so a hiker can do it without a harness, referred to colloquially as "the cables are up."
+The famous "cables" section is the final test. The last 400 ft of elevation gain goes straight up smooth granite, steep enough that your hands become part of your legs. Hikers can hook into the steel cables with harnesses and pull themselves up. But during the summer season, from late May to late September, the wonderful rangers at the park set up the cables so a hiker can do it without a harness, referred to colloquially as "the cables are up."
 
 Instead of a single long cable up the cliff, steel posts are added every 10 ft to create a walkway, with the cables at waist level. Every 10 ft, a wooden plank is also positioned across the steel posts to serve as a resting perch, instead of needing to stand on slippery granite. "Plank to plank" is the strategy hikers use to go up and down the cables.
 
@@ -34,6 +36,9 @@ In an interesting way, the energy of the sun controlled both human and cloud tra
 
 That meant we had to stay the previous night near the trailhead, so we could get an early start. We pulled into the park around 7 pm the night before, absorbing the bright pinkish hue of the horizon, enjoying the last arc of the setting sun whose final rays of orange splattered the summits of Half Dome and El Capitan.
 
+![Half Dome and Yosemite peaks glowing before the hike](/images/essays/hiking-half-dome/pre-hike-shining-peak.jpeg)
+*The park giving us one last calm view before the 4 am start.*
+
 At Tunnel View, we did a quick pit stop to soak in the view of Bridalveil Fall in the distance, faithfully flurrying down. We reserved a place at the Yosemite Condominiums, about 30 minutes away from the trailhead. The place was nicer than expected. It had self-check-in with a code, stable Wi-Fi, great running hot water, a kitchen, and beds. Importantly, there were also two bathrooms for four people, so that did not become a bottleneck.
 
 We showered, prepped and packed sandwiches, filled our water bags, and tucked ourselves into bed by 9 pm. None of us had a habit of going to bed that early, so we spent some time on our phones, chatting about a baby black bear and a deer pack we had spotted on the drive, before letting sleep kick in. The fear of needing to wake up at 3 am occluded the fear of the cables.
@@ -51,6 +56,9 @@ On our way there, multiple folks greeted us as they passed by, as is common hiki
 Quite a bold decision, I would say, given that they were willing to put all this effort in with a high chance they would be turned back at the Sub Dome section by a ranger, unless, on the off chance, someone else had an extra permit or some permit holder did not show up to the hike. We noticed several fellow hikers hanging out by the ranger station at Sub Dome for hours before being let through.
 
 The trees started to give way, and we were clearly above the treeline, with the early sun striking and heating our heads and backs. There was a beautiful half moon setting exactly along the Half Dome mountain line. Along with the bright blue cloudless sky, the fading green, and the gray steep rock close and afar, it became one of those visuals you never forget because it becomes a core memory.
+
+![Half moon setting over Half Dome](/images/essays/hiking-half-dome/half-moon-over-half-dome.jpeg)
+*The half moon holding its line over Half Dome.*
 
 A memory you hold on to and think about during hard times, but also during easy times, busy times, relaxed times, alive and almost-not-alive times.
 
@@ -75,17 +83,19 @@ Aside: I had not used a harness outside this before. The only harness I have gre
 
 It is important for each person to make a determination based on their risk appetite, mental state, and preparedness before deciding whether they want to continue to the cables or not. It is absolutely fine for someone to make it all the way to Sub Dome and not do this part as well. We wanted to ensure that we did not peer pressure anyone into doing it, so we went around asking each other if we were comfortable continuing or not.
 
-Closely following the "plank after plank" strategy, we reached the top of Half Dome about 30 minutes from Sub Dome. There was some crowding on the cables due to two-way traffic. Some folks also freeze in fear and get stuck at a plank. The height gets to their head, and they cannot move up or down. It is important to not let the situation get too much into your head as well, and to keep breathing.
+Closely following the "plank after plank" strategy, we reached the top of Half Dome about 30 minutes from Sub Dome. The first few planks were the loudest in my head. Glove on cable, shoe on granite, breathe, move. The trick was to reduce the mountain into ten-foot increments. Do not look at the whole face. Do not negotiate with the drop. Just reach the next plank and let that be the entire universe for a few seconds.
+
+There was some crowding on the cables due to two-way traffic. Some folks also freeze in fear and get stuck at a plank. The height gets to their head, and they cannot move up or down. It is important to not let the situation get too much into your head as well, and to keep breathing.
 
 We spent a good 40 minutes at the summit, exploring the various viewpoints. Yosemite Valley looked pristine as ever. El Capitan stood tall and incomprehensible as ever in the distance. The rushing force of Upper Yosemite Fall was a beautiful sight to see.
 
-I had hiked up the tallest free-falling waterfall in North America, Yosemite Falls, a few years ago. But that summit seemed far down compared to where I was now. The scale of power and time required for glaciers to carve immovable rocks over millennia still astounds me. It is the immensity of the scale that makes us aware of how tiny we are, perhaps the closest we can come to perceiving divinity with our senses.
+I had hiked up the tallest free-falling waterfall in North America, Yosemite Falls, a few years ago. But that summit seemed far down compared to where I was now. The scale of power and time required for glaciers to carve immovable rocks over millennia still astounds me. That scale is what makes you feel tiny in the cleanest possible way. Maybe that is the closest our senses can get to divinity: rock, water, time, and the sudden awareness that we are briefly passing through.
 
 After taking copious amounts of photos so as to not erase proof of summit, we decided to head back down. Going down the cables is usually riskier than going up. The smooth granite is ever so deceiving, and it is important to not let complacency set in at any point. The usual advice is to climb down as you would a ladder, facing the rock and not facing down.
 
 We all safely made it down to Sub Dome and decided to have our second set of packed sandwiches. This time, the meal tasted better, sweet from the accomplishment of going up and down the cables.
 
-The high of summiting, along with re-doses of LMNT-infused water, kept us going until Little Yosemite Valley. This is when the distance of the hike hits you. As the day grows long, the muscles get weary, and the adrenaline goes down, the remaining distance to the car seems to only grow longer.
+The high of summiting, along with re-doses of LMNT-infused water, kept us going until Little Yosemite Valley. This is when Half Dome collects its final payment. The summit high fades, the muscles become honest, and the remaining miles to the car seem to multiply.
 
 To spice things up, we decided to split our group of four into two sets and race to the parking lot. The winner would get their dinner sponsored. Big stakes, since this was going to be a post-hike ravenous meal.
 
@@ -101,6 +111,9 @@ We regrouped back at the car and decided we could not declare a winner because t
 
 We stopped by this great dinner place at Buck Meadows, about 45 minutes from the park, called Lucky's Cafe. The place also had a fast charger for our electric vehicle. It had a ton of options with good variety to satisfy the group's eclectic opinions.
 
+![Post-hike stop at Lucky's Cafe](/images/essays/hiking-half-dome/post-hike.jpeg)
+*The official post-hike refueling ceremony.*
+
 As we made our way home, I could not help but fall asleep in the car. My mind, heart, and stomach were all full. We showered and hit the bed to a great sleep, but not before I said a prayer of thanks to nature and the world.
 
-Thankful to live in a world where we have the freedom to escape, experience, and enjoy the serenity of nature.
+Somewhere between the mist of Vernal Fall, the steel of the cables, and the half moon over granite, the day had emptied me out and filled me back up. I fell asleep thankful: for friends, for knees that held, for nature that allows us to escape into it and return changed.
