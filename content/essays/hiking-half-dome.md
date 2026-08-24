@@ -95,6 +95,8 @@ After taking copious amounts of photos so as to not erase proof of summit, we de
 
 We all safely made it down to Sub Dome and decided to have our second set of packed sandwiches. This time, the meal tasted better, sweet from the accomplishment of going up and down the cables.
 
+Lunch also attracted a squirrel we nicknamed "Chonkers," who wreaked havoc on our brief rest. It tore a hole through my friend's bag and burrowed into a Ziploc pouch filled with protein powder. White streaks dotted the steep granite, forming a trail that ended at Chonkers' sharp incisors and comically puffed cheeks.
+
 The high of summiting, along with re-doses of LMNT-infused water, kept us going until Little Yosemite Valley. This is when Half Dome collects its final payment. The summit high fades, the muscles become honest, and the remaining miles to the car seem to multiply.
 
 To spice things up, we decided to split our group of four into two sets and race to the parking lot. The winner would get their dinner sponsored. Big stakes, since this was going to be a post-hike ravenous meal.
