@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="wrapper post">
+<div class="wrapper post{{ if .Params.wide }} post-wide{{ end }}">
     <main class="page-content" aria-label="Content">
         <article>
             <header class="header">
